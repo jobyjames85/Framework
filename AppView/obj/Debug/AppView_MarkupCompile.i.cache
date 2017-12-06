@@ -1,0 +1,20 @@
+﻿AppView
+
+
+library
+C#
+.cs
+D:\Joby TFS\Framework\AppView\obj\Debug\
+AppView
+none
+false
+DEBUG;TRACE
+
+10-144780575
+
+17-601018097
+16766222336
+MasterManagement\Entry\CategorieEntry.xaml;MasterManagement\Entry\CustomerEntry.xaml;MasterManagement\Entry\EmployeeEntry.xaml;MasterManagement\Entry\ProductsEntry.xaml;MasterManagement\Entry\RegionEntry.xaml;MasterManagement\Entry\ShippersEntry.xaml;MasterManagement\Entry\SuppliersEntry.xaml;MasterManagement\Entry\TerritoriesEntry.xaml;MasterManagement\Entry\UserEntry.xaml;OrderManagement\Entry\OrderEntry.xaml;
+
+False
+

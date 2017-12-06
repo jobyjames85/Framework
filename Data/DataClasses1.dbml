@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="FrameworkTable" Class="DataClasses1DataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=JOBYJAMES\MSSQLSERVER1;Initial Catalog=FrameworkTable;Persist Security Info=True;User ID=sa" SettingsObjectName="Data.Properties.Settings" SettingsPropertyName="FrameworkTableConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.SystemMenuItem" Member="SystemMenuItems">
+    <Type Name="SystemMenuItem">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="NameEn" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="NameJa" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="NameTh" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="NameCh" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="NameMy" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="NameClass" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="ImageIcon" Type="System.Data.Linq.Binary" DbType="Image" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="PageUri" Type="System.String" DbType="VarChar(500)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.SystemMenuTree" Member="SystemMenuTrees">
+    <Type Name="SystemMenuTree">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="PId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="DisplayIndex" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="SystemMenuItemId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+</Database>

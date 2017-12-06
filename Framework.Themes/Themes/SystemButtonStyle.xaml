@@ -1,0 +1,160 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <!--******************** Constants ********************-->
+
+    <!--******************** End Constants ********************-->
+
+
+    <!--******************** Colors ********************-->
+
+    <!--******************** End Colors ********************-->
+
+
+    <!--******************** Brushes ********************-->
+
+    <!--******************** End Brushes ********************-->
+
+
+    <!--******************** Converters ********************-->
+
+    <!--******************** End Converters ********************-->
+
+
+    <!--******************** Objects or Commands etc ********************-->
+
+    <!--******************** End Objects or Commands etc ********************-->
+
+
+    <!--******************** Style and Template ********************-->
+    <Style x:Key="ShutDownControlStyle" TargetType="{x:Type Button}">
+        <Setter Property="HorizontalAlignment" Value="Left"></Setter>
+        <Setter Property="VerticalAlignment" Value="Top"></Setter>
+        <Setter Property="Height" Value="22"></Setter>
+        <Setter Property="Width" Value="70"></Setter>
+        <Setter Property="Margin" Value="4,4,0,0"></Setter>
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate>
+                    <Border x:Name="border" Background="Transparent"  CornerRadius="4" Height="20" Width="Auto"
+                            HorizontalAlignment="Center" VerticalAlignment="Center" Opacity="0.8">
+                        <Grid VerticalAlignment="Center" HorizontalAlignment="Center" Height="Auto" Width="Auto">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="auto" />
+                                <ColumnDefinition Width="auto" />
+                            </Grid.ColumnDefinitions>
+                            <Image Height="20" Grid.Column="0" HorizontalAlignment="Center" 
+								   Source="/Framework.Themes;component/Images/Logoff32.png"
+                                   Width="19" VerticalAlignment="Center">
+                            </Image>
+                            <TextBlock Grid.Column="1" x:Name="LogOff" Foreground="White" VerticalAlignment="Center"
+                                       HorizontalAlignment="Center"  Margin="2,0,0,0" Text="Logoff" FontSize="12" />
+                        </Grid>
+                    </Border>
+                    <ControlTemplate.Triggers>
+                        <Trigger Property="IsMouseOver" Value="True" SourceName="border">
+                            <Setter Property="Opacity" Value="0.75" TargetName="border" />
+                            <Setter Property="BorderThickness" Value="1" TargetName="border" />
+                            <Setter Property="BorderBrush" Value="White" TargetName="border" />
+                            <Setter Property="Background"  TargetName="border" Value="{DynamicResource shutDownBackground}">
+                            </Setter>
+                        </Trigger>
+                    </ControlTemplate.Triggers>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+    
+    <Style TargetType="{x:Type Button}" x:Key="MinimizeButtonStyle">
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="{x:Type Button}">
+                    <Border x:Name="MainBorder" Style="{DynamicResource MainBorderStyle_Minimize}">
+                        <Grid>
+                            <Border x:Name="ButtonBackground" Style="{DynamicResource ButtonBackgroundStyle_Minimize}">
+                                <Border x:Name="OpacityBorder" Style="{DynamicResource OpacityBorderStyle_Minimize}" />
+                            </Border>
+                            <Border x:Name="BottomBorder" Style="{DynamicResource BottomBorderStyle}" />
+                            <ContentPresenter VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                        </Grid>
+                    </Border>
+                    <ControlTemplate.Triggers>
+                        <Trigger Property="IsMouseOver" Value="True">
+                            <Setter Property="Background" TargetName="ButtonBackground" Value="{DynamicResource ButtonBackgroundMouseOverBrush_Minimize_Maximize}" />
+                            <Setter Property="Background" TargetName="BottomBorder" Value="{DynamicResource BottomBorderBackgroundMouseOverBrush_Minimize_Maximize}" />
+                            <!--<Setter Property="Background" TargetName="OpacityBorder" Value="{DynamicResource OpacityBorderBackgroundMouseOverBrush_Minimize_Maximize}" />-->
+                            <!--<Setter TargetName="OpacityBorder" Property="BorderBrush" Value="{DynamicResource OpacityBorderBackgroundMouseOverBorderBrush_Minimize_Maximize}"/>-->
+                        </Trigger>
+                    </ControlTemplate.Triggers>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+        <Style.Triggers>
+            <Trigger Property="IsMouseOver" Value="True">
+                <Setter Property="Effect" Value="{DynamicResource ButtonEffectStyle_Minimize_Maximize}" />
+            </Trigger>
+        </Style.Triggers>
+    </Style>
+
+    <Style TargetType="{x:Type Button}" x:Key="MaximizeButtonStyle">
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="{x:Type Button}">
+                    <Border x:Name="MainBorder"  Style="{DynamicResource MainBorderStyle_Maximize}">
+                        <Grid>
+                            <Border x:Name="ButtonBackground"  Style="{DynamicResource ButtonBackgroundStyle_Maximize}">
+                                <Border x:Name="OpacityBorder"   Style="{DynamicResource OpacityBorderStyle_Maximize}" />
+                            </Border>
+                            <Border x:Name="BottomBorder" CornerRadius="50,50,0,0" Margin="0,0,0,-3" Height="9" Width="21" HorizontalAlignment="Center" VerticalAlignment="Bottom" Style="{DynamicResource BottomBorderStyle}"/>
+                            <ContentPresenter VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                        </Grid>
+                    </Border>
+                    <ControlTemplate.Triggers>
+                        <Trigger Property="IsMouseOver" Value="True">
+                            <Setter Property="Background" TargetName="ButtonBackground" Value="{DynamicResource ButtonBackgroundMouseOverBrush_Minimize_Maximize}" />
+                            <Setter Property="Background" TargetName="BottomBorder" Value="{DynamicResource BottomBorderBackgroundMouseOverBrush_Minimize_Maximize}" />
+                            <!--<Setter Property="Background" TargetName="OpacityBorder" Value="{DynamicResource OpacityBorderBackgroundMouseOverBrush_Minimize_Maximize}" />-->
+                            <!--<Setter TargetName="OpacityBorder" Property="BorderBrush" Value="{DynamicResource OpacityBorderBackgroundMouseOverBorderBrush_Minimize_Maximize}"/>-->
+                        </Trigger>
+                    </ControlTemplate.Triggers>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+        <Style.Triggers>
+            <Trigger Property="IsMouseOver" Value="True">
+                <Setter Property="Effect" Value="{DynamicResource ButtonEffectStyle_Minimize_Maximize}" />
+            </Trigger>
+        </Style.Triggers>
+    </Style>
+
+    <Style TargetType="{x:Type Button}" x:Key="CloseButtonStyle">
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="{x:Type Button}">
+                    <Border x:Name="MainBorder" Style="{DynamicResource MainBorderStyle_Close}">
+                        <Grid>
+                            <Border x:Name="ButtonBackground" Style="{DynamicResource ButtonBackgroundStyle_Close}" >
+                                <Border x:Name="OpacityBorder" Style="{DynamicResource OpacityBorderStyle_Close}" />
+                            </Border>
+                            <Border x:Name="BottomBorder" Style="{DynamicResource BottomBorderStyle_Close}"/>
+                            <ContentPresenter VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                        </Grid>
+                    </Border>
+                    <ControlTemplate.Triggers>
+                        <Trigger Property="IsMouseOver" Value="True">
+                            <Setter TargetName="ButtonBackground" Property="Background" Value="{DynamicResource ButtonBackgroundMouseOverBrush_Close}" />
+                            <Setter TargetName="OpacityBorder" Property="Background" Value="{DynamicResource OpacityBorderMouseOverBrush_Close}" />
+                            <Setter TargetName="BottomBorder" Property="Background" Value="{DynamicResource BottomBorderBackgroundMouseOverBrush_Close}" />
+                            <!--<Setter TargetName="OpacityBorder" Property="BorderBrush" Value="{DynamicResource OpacityBorderMouseOverBorderBrush_Close}"/>-->
+                        </Trigger>
+                    </ControlTemplate.Triggers>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+        <Style.Triggers>
+            <Trigger Property="IsMouseOver" Value="True">
+                <Setter Property="Effect" Value="{DynamicResource ButtonEffectStyle_Close}" />
+            </Trigger>
+        </Style.Triggers>
+    </Style>
+    <!--******************** Finish Style and Template ********************-->
+</ResourceDictionary>

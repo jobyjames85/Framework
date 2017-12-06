@@ -1,0 +1,56 @@
+F:\Project\Framework\Framework.Themes\bin\Debug\Framework.Themes.dll
+F:\Project\Framework\Framework.Themes\bin\Debug\Framework.Themes.pdb
+F:\Project\Framework\Framework.Themes\bin\Debug\Microsoft.Windows.Shell.dll
+F:\Project\Framework\Framework.Themes\obj\Debug\Framework.Themes.csprojResolveAssemblyReference.cache
+F:\Project\Framework\Framework.Themes\obj\Debug\Framework.Themes_MarkupCompile.cache
+F:\Project\Framework\Framework.Themes\obj\Debug\Framework.Themes_MarkupCompile.lref
+F:\Project\Framework\Framework.Themes\obj\Debug\Skins\ClassicSkin.baml
+F:\Project\Framework\Framework.Themes\obj\Debug\Skins\MetroSkin.baml
+F:\Project\Framework\Framework.Themes\obj\Debug\Framework.Themes.g.resources
+F:\Project\Framework\Framework.Themes\obj\Debug\Framework.Themes.Properties.Resources.resources
+F:\Project\Framework\Framework.Themes\obj\Debug\Framework.Themes.csproj.GenerateResource.Cache
+F:\Project\Framework\Framework.Themes\obj\Debug\Framework.Themes.dll
+F:\Project\Framework\Framework.Themes\obj\Debug\Framework.Themes.pdb
+F:\Project\Framework\Framework.Themes\obj\Debug\Themes\CommonStyle.baml
+F:\Project\Framework\Framework.Themes\obj\Debug\Themes\SystemButtonStyle.baml
+F:\Project\Framework\Framework.Themes\obj\Debug\UserControl\CaptionButtons.baml
+F:\Project\Framework\Framework.Themes\obj\Debug\UserControl\CaptionButtons.g.cs
+F:\Project\Framework\Framework.Themes\obj\Debug\GeneratedInternalTypeHelper.g.cs
+G:\Project\Framework\Framework.Themes\obj\Debug\SkinColor\BlueColorSkin.baml
+G:\Project\Framework\Framework.Themes\obj\Debug\Themes\CommonStyle.baml
+G:\Project\Framework\Framework.Themes\obj\Debug\Themes\SystemButtonStyle.baml
+G:\Project\Framework\Framework.Themes\obj\Debug\UserControl\CaptionButtons.baml
+G:\Project\Framework\Framework.Themes\obj\Debug\UserControl\CaptionButtons.g.cs
+G:\Project\Framework\Framework.Themes\obj\Debug\GeneratedInternalTypeHelper.g.cs
+G:\Project\Framework\Framework.Themes\obj\Debug\Framework.Themes_MarkupCompile.cache
+G:\Project\Framework\Framework.Themes\obj\Debug\Framework.Themes_MarkupCompile.lref
+G:\Project\Framework\Framework.Themes\obj\Debug\Framework.Themes.csprojResolveAssemblyReference.cache
+G:\Project\Framework\Framework.Themes\bin\Debug\Framework.Themes.dll
+G:\Project\Framework\Framework.Themes\bin\Debug\Framework.Themes.pdb
+G:\Project\Framework\Framework.Themes\bin\Debug\Microsoft.Windows.Shell.dll
+G:\Project\Framework\Framework.Themes\obj\Debug\SkinsShapes\ClassicSkin.baml
+G:\Project\Framework\Framework.Themes\obj\Debug\SkinsShapes\MetroSkin.baml
+G:\Project\Framework\Framework.Themes\obj\Debug\Framework.Themes.g.resources
+G:\Project\Framework\Framework.Themes\obj\Debug\Framework.Themes.Properties.Resources.resources
+G:\Project\Framework\Framework.Themes\obj\Debug\Framework.Themes.csproj.GenerateResource.Cache
+G:\Project\Framework\Framework.Themes\obj\Debug\Framework.Themes.dll
+G:\Project\Framework\Framework.Themes\obj\Debug\Framework.Themes.pdb
+D:\Joby TFS\Framework\Framework.Themes\obj\Debug\Framework.Themes.csprojResolveAssemblyReference.cache
+D:\Joby TFS\Framework\Framework.Themes\obj\Debug\SkinColor\BlueColorSkin.baml
+D:\Joby TFS\Framework\Framework.Themes\obj\Debug\Themes\CommonStyle.baml
+D:\Joby TFS\Framework\Framework.Themes\obj\Debug\Themes\SystemButtonStyle.baml
+D:\Joby TFS\Framework\Framework.Themes\obj\Debug\UserControl\CaptionButtons.baml
+D:\Joby TFS\Framework\Framework.Themes\obj\Debug\UserControl\CaptionButtons.g.cs
+D:\Joby TFS\Framework\Framework.Themes\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\Joby TFS\Framework\Framework.Themes\obj\Debug\Framework.Themes_MarkupCompile.cache
+D:\Joby TFS\Framework\Framework.Themes\obj\Debug\Framework.Themes_MarkupCompile.lref
+D:\Joby TFS\Framework\Framework.Themes\obj\Debug\Framework.Themes.dll
+D:\Joby TFS\Framework\Framework.Themes\obj\Debug\Framework.Themes.pdb
+D:\Joby TFS\Framework\Framework.Themes\bin\Debug\Framework.Themes.dll
+D:\Joby TFS\Framework\Framework.Themes\bin\Debug\Framework.Themes.pdb
+D:\Joby TFS\Framework\Framework.Themes\bin\Debug\Microsoft.Windows.Shell.dll
+D:\Joby TFS\Framework\Framework.Themes\obj\Debug\SkinsShapes\ClassicSkin.baml
+D:\Joby TFS\Framework\Framework.Themes\obj\Debug\SkinsShapes\MetroSkin.baml
+D:\Joby TFS\Framework\Framework.Themes\obj\Debug\Framework.Themes.g.resources
+D:\Joby TFS\Framework\Framework.Themes\obj\Debug\Framework.Themes.Properties.Resources.resources
+D:\Joby TFS\Framework\Framework.Themes\obj\Debug\Framework.Themes.csproj.GenerateResource.Cache

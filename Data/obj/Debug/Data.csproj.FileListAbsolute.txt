@@ -1,0 +1,13 @@
+G:\Project\Framework\Data\bin\Debug\Data.exe.config
+G:\Project\Framework\Data\bin\Debug\Data.exe
+G:\Project\Framework\Data\bin\Debug\Data.pdb
+G:\Project\Framework\Data\obj\Debug\Data.csprojResolveAssemblyReference.cache
+G:\Project\Framework\Data\obj\Debug\MainWindow.baml
+G:\Project\Framework\Data\obj\Debug\MainWindow.g.cs
+G:\Project\Framework\Data\obj\Debug\App.g.cs
+G:\Project\Framework\Data\obj\Debug\Data_MarkupCompile.cache
+G:\Project\Framework\Data\obj\Debug\Data.g.resources
+G:\Project\Framework\Data\obj\Debug\Data.Properties.Resources.resources
+G:\Project\Framework\Data\obj\Debug\Data.csproj.GenerateResource.Cache
+G:\Project\Framework\Data\obj\Debug\Data.exe
+G:\Project\Framework\Data\obj\Debug\Data.pdb

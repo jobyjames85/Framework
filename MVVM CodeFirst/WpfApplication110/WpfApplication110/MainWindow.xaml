@@ -1,0 +1,31 @@
+﻿<Window x:Class="WpfApplication110.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:VModel="clr-namespace:WpfApplication2;assembly=WpfApplication2"
+        xmlns:local="clr-namespace:WpfApplication110"
+        Title="MainWindow" Height="350" Width="525">
+   
+    <Window.Resources>
+        <local:MultiValueConverter x:Key="MultiConvert"/>
+    </Window.Resources>
+    
+    <Window.DataContext>
+        <VModel:ViewModel/>
+    </Window.DataContext>
+    
+    <Grid>
+        <DataGrid x:Name="CheckDataGrid" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="20,40" ItemsSource="{Binding Enrollments}"/>
+        <Button Content="Add" HorizontalAlignment="Left" Margin="333,10,0,0" VerticalAlignment="Top" Width="75" Command="{Binding AddCommand}" CommandParameter="{Binding ElementName=CheckDataGrid}"/>
+        <Button Content="Save" HorizontalAlignment="Left" Margin="230,10,0,0" VerticalAlignment="Top" Width="75" Command="{Binding SaveCommand}" CommandParameter="{Binding ElementName=CheckDataGrid}"/>
+        <Button Content="Delete" HorizontalAlignment="Left" Margin="110,10,0,0" VerticalAlignment="Top" Width="75" Command="{Binding DeleteCommand}">
+            <Button.CommandParameter>
+                <MultiBinding Converter="{StaticResource MultiConvert}">
+                    <Binding ElementName="CheckDataGrid" Path="SelectedItem"/>
+                    <Binding ElementName="CheckDataGrid"/>
+                </MultiBinding>
+            </Button.CommandParameter>
+        </Button>
+        <Button Content="Open" HorizontalAlignment="Left" Height="20" Margin="32,10,0,0" VerticalAlignment="Top" Width="55"  Click="Button_Click"/>
+
+    </Grid>
+</Window>

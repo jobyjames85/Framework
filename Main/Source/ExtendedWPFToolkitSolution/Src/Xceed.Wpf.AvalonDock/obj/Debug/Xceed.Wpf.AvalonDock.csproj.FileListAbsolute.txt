@@ -1,0 +1,84 @@
+G:\Project\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.AvalonDock\bin\Debug\Xceed.Wpf.AvalonDock.dll
+G:\Project\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.AvalonDock\bin\Debug\Xceed.Wpf.AvalonDock.pdb
+G:\Project\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.AvalonDock\bin\Debug\hu\Xceed.Wpf.AvalonDock.resources.dll
+G:\Project\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.AvalonDock\bin\Debug\it\Xceed.Wpf.AvalonDock.resources.dll
+G:\Project\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.AvalonDock\bin\Debug\fr\Xceed.Wpf.AvalonDock.resources.dll
+G:\Project\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.AvalonDock\bin\Debug\es\Xceed.Wpf.AvalonDock.resources.dll
+G:\Project\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.AvalonDock\bin\Debug\pt-BR\Xceed.Wpf.AvalonDock.resources.dll
+G:\Project\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.AvalonDock\bin\Debug\ru\Xceed.Wpf.AvalonDock.resources.dll
+G:\Project\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.AvalonDock\bin\Debug\de\Xceed.Wpf.AvalonDock.resources.dll
+G:\Project\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.AvalonDock\bin\Debug\sv\Xceed.Wpf.AvalonDock.resources.dll
+G:\Project\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.AvalonDock\bin\Debug\zh-Hans\Xceed.Wpf.AvalonDock.resources.dll
+G:\Project\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.AvalonDock\bin\Debug\ro\Xceed.Wpf.AvalonDock.resources.dll
+G:\Project\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.AvalonDock\obj\Debug\Xceed.Wpf.AvalonDock.csprojResolveAssemblyReference.cache
+G:\Project\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.AvalonDock\obj\Debug\GeneratedInternalTypeHelper.g.cs
+G:\Project\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.AvalonDock\obj\Debug\Xceed.Wpf.AvalonDock_MarkupCompile.cache
+G:\Project\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.AvalonDock\obj\Debug\Xceed.Wpf.AvalonDock_MarkupCompile.lref
+G:\Project\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.AvalonDock\obj\Debug\Themes\generic.baml
+G:\Project\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.AvalonDock\obj\Debug\Xceed.Wpf.AvalonDock.g.resources
+G:\Project\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.AvalonDock\obj\Debug\Xceed.Wpf.AvalonDock.Properties.Resources.resources
+G:\Project\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.AvalonDock\obj\Debug\Xceed.Wpf.AvalonDock.Properties.Resources.hu.resources
+G:\Project\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.AvalonDock\obj\Debug\Xceed.Wpf.AvalonDock.Properties.Resources.it.resources
+G:\Project\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.AvalonDock\obj\Debug\Xceed.Wpf.AvalonDock.Properties.Resources.fr.resources
+G:\Project\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.AvalonDock\obj\Debug\Xceed.Wpf.AvalonDock.Properties.Resources.es.resources
+G:\Project\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.AvalonDock\obj\Debug\Xceed.Wpf.AvalonDock.Properties.Resources.pt-BR.resources
+G:\Project\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.AvalonDock\obj\Debug\Xceed.Wpf.AvalonDock.Properties.Resources.ru.resources
+G:\Project\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.AvalonDock\obj\Debug\Xceed.Wpf.AvalonDock.Properties.Resources.de.resources
+G:\Project\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.AvalonDock\obj\Debug\Xceed.Wpf.AvalonDock.Properties.Resources.sv.resources
+G:\Project\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.AvalonDock\obj\Debug\Xceed.Wpf.AvalonDock.Properties.Resources.zh-Hans.resources
+G:\Project\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.AvalonDock\obj\Debug\Xceed.Wpf.AvalonDock.Properties.Resources.ro.resources
+G:\Project\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.AvalonDock\obj\Debug\Xceed.Wpf.AvalonDock.csproj.GenerateResource.Cache
+G:\Project\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.AvalonDock\obj\Debug\hu\Xceed.Wpf.AvalonDock.resources.dll
+G:\Project\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.AvalonDock\obj\Debug\it\Xceed.Wpf.AvalonDock.resources.dll
+G:\Project\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.AvalonDock\obj\Debug\fr\Xceed.Wpf.AvalonDock.resources.dll
+G:\Project\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.AvalonDock\obj\Debug\es\Xceed.Wpf.AvalonDock.resources.dll
+G:\Project\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.AvalonDock\obj\Debug\pt-BR\Xceed.Wpf.AvalonDock.resources.dll
+G:\Project\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.AvalonDock\obj\Debug\ru\Xceed.Wpf.AvalonDock.resources.dll
+G:\Project\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.AvalonDock\obj\Debug\de\Xceed.Wpf.AvalonDock.resources.dll
+G:\Project\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.AvalonDock\obj\Debug\sv\Xceed.Wpf.AvalonDock.resources.dll
+G:\Project\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.AvalonDock\obj\Debug\zh-Hans\Xceed.Wpf.AvalonDock.resources.dll
+G:\Project\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.AvalonDock\obj\Debug\ro\Xceed.Wpf.AvalonDock.resources.dll
+G:\Project\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.AvalonDock\obj\Debug\Xceed.Wpf.AvalonDock.dll
+G:\Project\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.AvalonDock\obj\Debug\Xceed.Wpf.AvalonDock.pdb
+D:\Joby TFS\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.AvalonDock\bin\Debug\Xceed.Wpf.AvalonDock.dll
+D:\Joby TFS\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.AvalonDock\bin\Debug\Xceed.Wpf.AvalonDock.pdb
+D:\Joby TFS\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.AvalonDock\bin\Debug\hu\Xceed.Wpf.AvalonDock.resources.dll
+D:\Joby TFS\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.AvalonDock\bin\Debug\it\Xceed.Wpf.AvalonDock.resources.dll
+D:\Joby TFS\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.AvalonDock\bin\Debug\fr\Xceed.Wpf.AvalonDock.resources.dll
+D:\Joby TFS\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.AvalonDock\bin\Debug\es\Xceed.Wpf.AvalonDock.resources.dll
+D:\Joby TFS\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.AvalonDock\bin\Debug\pt-BR\Xceed.Wpf.AvalonDock.resources.dll
+D:\Joby TFS\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.AvalonDock\bin\Debug\ru\Xceed.Wpf.AvalonDock.resources.dll
+D:\Joby TFS\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.AvalonDock\bin\Debug\de\Xceed.Wpf.AvalonDock.resources.dll
+D:\Joby TFS\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.AvalonDock\bin\Debug\sv\Xceed.Wpf.AvalonDock.resources.dll
+D:\Joby TFS\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.AvalonDock\bin\Debug\zh-Hans\Xceed.Wpf.AvalonDock.resources.dll
+D:\Joby TFS\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.AvalonDock\bin\Debug\ro\Xceed.Wpf.AvalonDock.resources.dll
+D:\Joby TFS\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.AvalonDock\obj\Debug\Xceed.Wpf.AvalonDock.csprojResolveAssemblyReference.cache
+D:\Joby TFS\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.AvalonDock\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\Joby TFS\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.AvalonDock\obj\Debug\Xceed.Wpf.AvalonDock_MarkupCompile.cache
+D:\Joby TFS\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.AvalonDock\obj\Debug\Xceed.Wpf.AvalonDock_MarkupCompile.lref
+D:\Joby TFS\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.AvalonDock\obj\Debug\Themes\generic.baml
+D:\Joby TFS\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.AvalonDock\obj\Debug\Xceed.Wpf.AvalonDock.g.resources
+D:\Joby TFS\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.AvalonDock\obj\Debug\Xceed.Wpf.AvalonDock.Properties.Resources.resources
+D:\Joby TFS\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.AvalonDock\obj\Debug\Xceed.Wpf.AvalonDock.Properties.Resources.hu.resources
+D:\Joby TFS\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.AvalonDock\obj\Debug\Xceed.Wpf.AvalonDock.Properties.Resources.it.resources
+D:\Joby TFS\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.AvalonDock\obj\Debug\Xceed.Wpf.AvalonDock.Properties.Resources.fr.resources
+D:\Joby TFS\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.AvalonDock\obj\Debug\Xceed.Wpf.AvalonDock.Properties.Resources.es.resources
+D:\Joby TFS\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.AvalonDock\obj\Debug\Xceed.Wpf.AvalonDock.Properties.Resources.pt-BR.resources
+D:\Joby TFS\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.AvalonDock\obj\Debug\Xceed.Wpf.AvalonDock.Properties.Resources.ru.resources
+D:\Joby TFS\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.AvalonDock\obj\Debug\Xceed.Wpf.AvalonDock.Properties.Resources.de.resources
+D:\Joby TFS\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.AvalonDock\obj\Debug\Xceed.Wpf.AvalonDock.Properties.Resources.sv.resources
+D:\Joby TFS\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.AvalonDock\obj\Debug\Xceed.Wpf.AvalonDock.Properties.Resources.zh-Hans.resources
+D:\Joby TFS\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.AvalonDock\obj\Debug\Xceed.Wpf.AvalonDock.Properties.Resources.ro.resources
+D:\Joby TFS\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.AvalonDock\obj\Debug\Xceed.Wpf.AvalonDock.csproj.GenerateResource.Cache
+D:\Joby TFS\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.AvalonDock\obj\Debug\hu\Xceed.Wpf.AvalonDock.resources.dll
+D:\Joby TFS\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.AvalonDock\obj\Debug\it\Xceed.Wpf.AvalonDock.resources.dll
+D:\Joby TFS\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.AvalonDock\obj\Debug\fr\Xceed.Wpf.AvalonDock.resources.dll
+D:\Joby TFS\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.AvalonDock\obj\Debug\es\Xceed.Wpf.AvalonDock.resources.dll
+D:\Joby TFS\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.AvalonDock\obj\Debug\pt-BR\Xceed.Wpf.AvalonDock.resources.dll
+D:\Joby TFS\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.AvalonDock\obj\Debug\ru\Xceed.Wpf.AvalonDock.resources.dll
+D:\Joby TFS\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.AvalonDock\obj\Debug\de\Xceed.Wpf.AvalonDock.resources.dll
+D:\Joby TFS\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.AvalonDock\obj\Debug\sv\Xceed.Wpf.AvalonDock.resources.dll
+D:\Joby TFS\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.AvalonDock\obj\Debug\zh-Hans\Xceed.Wpf.AvalonDock.resources.dll
+D:\Joby TFS\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.AvalonDock\obj\Debug\ro\Xceed.Wpf.AvalonDock.resources.dll
+D:\Joby TFS\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.AvalonDock\obj\Debug\Xceed.Wpf.AvalonDock.dll
+D:\Joby TFS\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.AvalonDock\obj\Debug\Xceed.Wpf.AvalonDock.pdb

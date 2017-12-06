@@ -1,0 +1,26 @@
+﻿<Page x:Class="AppView.EmployeeEntry"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:TransformPage="clr-namespace:WpfPageTransitions;assembly=WpfPageTransitions"
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      mc:Ignorable="d" 
+      d:DesignHeight="600" d:DesignWidth="600"
+	Title="EmployeeEntry">
+
+    <Grid>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="40" />
+        </Grid.RowDefinitions>
+
+        <TransformPage:PageTransition Name="pageTransitionControl" Margin="25" TransitionType="SlideAndFade" />
+
+        <StackPanel Grid.Row="1" Orientation="Horizontal" HorizontalAlignment="Right">
+            <ComboBox Name="cmbTransitionTypes" Margin="5" Width="200" SelectionChanged="cmbTransitionTypes_SelectionChanged" />
+            <Button Margin="5" Name="btnNextPage" Content="Next Page" Click="btnNextPage_Click" Width="150" />
+            <Button Margin="5" Name="btnNextPage1" Content="Next Page" Click="btnNextPage1_Click"  Width="150" />
+        </StackPanel>
+    </Grid>
+</Page>

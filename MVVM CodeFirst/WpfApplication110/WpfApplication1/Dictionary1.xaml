@@ -1,0 +1,8 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+<!--Enable-Migrations –EnableAutomaticMigrations
+Add-Migration [name]
+Update-Database [-verbose]
+RolllBack Changes Update-Database -TargetMigration:"seedAdded"-->
+</ResourceDictionary>

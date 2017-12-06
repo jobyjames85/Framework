@@ -1,0 +1,16 @@
+G:\Project\Framework\AppViewModel\obj\Debug\AppViewModel.Properties.Resources.resources
+G:\Project\Framework\AppViewModel\obj\Debug\AppViewModel.csproj.GenerateResource.Cache
+G:\Project\Framework\AppViewModel\bin\Debug\AppViewModel.dll.config
+G:\Project\Framework\AppViewModel\bin\Debug\AppViewModel.dll
+G:\Project\Framework\AppViewModel\bin\Debug\AppViewModel.pdb
+G:\Project\Framework\AppViewModel\obj\Debug\AppViewModel.dll
+G:\Project\Framework\AppViewModel\obj\Debug\AppViewModel.pdb
+D:\Joby TFS\Framework\AppViewModel\bin\Debug\AppViewModel.dll.config
+D:\Joby TFS\Framework\AppViewModel\bin\Debug\AppViewModel.dll
+D:\Joby TFS\Framework\AppViewModel\bin\Debug\AppViewModel.pdb
+D:\Joby TFS\Framework\AppViewModel\obj\Debug\AppViewModel.csprojResolveAssemblyReference.cache
+D:\Joby TFS\Framework\AppViewModel\obj\Debug\AppViewModel.g.resources
+D:\Joby TFS\Framework\AppViewModel\obj\Debug\AppViewModel.Properties.Resources.resources
+D:\Joby TFS\Framework\AppViewModel\obj\Debug\AppViewModel.csproj.GenerateResource.Cache
+D:\Joby TFS\Framework\AppViewModel\obj\Debug\AppViewModel.dll
+D:\Joby TFS\Framework\AppViewModel\obj\Debug\AppViewModel.pdb

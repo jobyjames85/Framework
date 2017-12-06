@@ -1,0 +1,365 @@
+﻿<Page x:Class="AppView.SuppliersEntry"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:Helper="clr-namespace:AppView.Helper"
+      xmlns:convert="clr-namespace:AppView.Converters"
+      xmlns:view="clr-namespace:AppView"
+      mc:Ignorable="d" 
+      d:DesignHeight="300" d:DesignWidth="300"
+	Title="SuppliersEntry">
+    <Page.Resources>
+        <!-- #Converters -->
+        <convert:ProgressConvert x:Key="progress"/>
+        <!-- #EndConverters -->
+
+        <SolidColorBrush Color="Orange"  x:Key="ThemeColor"/>
+
+        <Style TargetType="ProgressBar" x:Key="MetroProgress">
+            <!--<Setter Property="Foreground"
+                Value="{DynamicResource Accent}" />
+            <Setter Property="Background"
+                Value="{DynamicResource ProgressBackground}" />-->
+            <Setter Property="BorderThickness"
+                Value="0" />
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="ProgressBar">
+                        <Helper:RelativeAnimatingContentControl HorizontalContentAlignment="Stretch" VerticalContentAlignment="Stretch">
+                            <Helper:RelativeAnimatingContentControl.Resources>
+                                <ExponentialEase EasingMode="EaseOut" Exponent="1" x:Key="ProgressBarEaseOut"/>
+                                <ExponentialEase EasingMode="EaseOut" Exponent="1" x:Key="ProgressBarEaseIn"/>
+                            </Helper:RelativeAnimatingContentControl.Resources>
+                            <VisualStateManager.VisualStateGroups>
+                                <VisualStateGroup x:Name="CommonStates">
+                                    <VisualState x:Name="Determinate"/>
+                                    <VisualState x:Name="Indeterminate">
+                                        <Storyboard RepeatBehavior="Forever" Duration="00:00:04.4">
+                                            <DoubleAnimationUsingKeyFrames BeginTime="00:00:00.0" Storyboard.TargetProperty="X" Storyboard.TargetName="R1TT">
+                                                <LinearDoubleKeyFrame KeyTime="00:00:00.0" Value="0.1"/>
+                                                <EasingDoubleKeyFrame KeyTime="00:00:00.5" Value="33.1" EasingFunction="{StaticResource ProgressBarEaseOut}"/>
+                                                <LinearDoubleKeyFrame KeyTime="00:00:02.0" Value="66.1"/>
+                                                <EasingDoubleKeyFrame KeyTime="00:00:02.5" Value="100.1" EasingFunction="{StaticResource ProgressBarEaseIn}"/>
+                                            </DoubleAnimationUsingKeyFrames>
+                                            <DoubleAnimationUsingKeyFrames BeginTime="00:00:00.2" Storyboard.TargetProperty="X" Storyboard.TargetName="R2TT">
+                                                <LinearDoubleKeyFrame KeyTime="00:00:00.0" Value="0.1"/>
+                                                <EasingDoubleKeyFrame KeyTime="00:00:00.5" Value="33.1" EasingFunction="{StaticResource ProgressBarEaseOut}"/>
+                                                <LinearDoubleKeyFrame KeyTime="00:00:02.0" Value="66.1"/>
+                                                <EasingDoubleKeyFrame KeyTime="00:00:02.5" Value="100.1" EasingFunction="{StaticResource ProgressBarEaseIn}"/>
+                                            </DoubleAnimationUsingKeyFrames>
+                                            <DoubleAnimationUsingKeyFrames BeginTime="00:00:00.4" Storyboard.TargetProperty="X" Storyboard.TargetName="R3TT">
+                                                <LinearDoubleKeyFrame KeyTime="00:00:00.0" Value="0.1"/>
+                                                <EasingDoubleKeyFrame KeyTime="00:00:00.5" Value="33.1" EasingFunction="{StaticResource ProgressBarEaseOut}"/>
+                                                <LinearDoubleKeyFrame KeyTime="00:00:02.0" Value="66.1"/>
+                                                <EasingDoubleKeyFrame KeyTime="00:00:02.5" Value="100.1" EasingFunction="{StaticResource ProgressBarEaseIn}"/>
+                                            </DoubleAnimationUsingKeyFrames>
+                                            <DoubleAnimationUsingKeyFrames BeginTime="00:00:00.6" Storyboard.TargetProperty="X" Storyboard.TargetName="R4TT">
+                                                <LinearDoubleKeyFrame KeyTime="00:00:00.0" Value="0.1"/>
+                                                <EasingDoubleKeyFrame KeyTime="00:00:00.5" Value="33.1" EasingFunction="{StaticResource ProgressBarEaseOut}"/>
+                                                <LinearDoubleKeyFrame KeyTime="00:00:02.0" Value="66.1"/>
+                                                <EasingDoubleKeyFrame KeyTime="00:00:02.5" Value="100.1" EasingFunction="{StaticResource ProgressBarEaseIn}"/>
+                                            </DoubleAnimationUsingKeyFrames>
+                                            <DoubleAnimationUsingKeyFrames BeginTime="00:00:00.8" Storyboard.TargetProperty="X" Storyboard.TargetName="R5TT">
+                                                <LinearDoubleKeyFrame KeyTime="00:00:00.0" Value="0.1"/>
+                                                <EasingDoubleKeyFrame KeyTime="00:00:00.5" Value="33.1" EasingFunction="{StaticResource ProgressBarEaseOut}"/>
+                                                <LinearDoubleKeyFrame KeyTime="00:00:02.0" Value="66.1"/>
+                                                <EasingDoubleKeyFrame KeyTime="00:00:02.5" Value="100.1" EasingFunction="{StaticResource ProgressBarEaseIn}"/>
+                                            </DoubleAnimationUsingKeyFrames>
+                                            <DoubleAnimationUsingKeyFrames BeginTime="00:00:00.0" Storyboard.TargetProperty="Opacity" Storyboard.TargetName="R1">
+                                                <DiscreteDoubleKeyFrame KeyTime="0" Value="1"/>
+                                                <DiscreteDoubleKeyFrame KeyTime="00:00:02.5" Value="0"/>
+                                            </DoubleAnimationUsingKeyFrames>
+                                            <DoubleAnimationUsingKeyFrames BeginTime="00:00:00.2" Storyboard.TargetProperty="Opacity" Storyboard.TargetName="R2">
+                                                <DiscreteDoubleKeyFrame KeyTime="0" Value="1"/>
+                                                <DiscreteDoubleKeyFrame KeyTime="00:00:02.5" Value="0"/>
+                                            </DoubleAnimationUsingKeyFrames>
+                                            <DoubleAnimationUsingKeyFrames BeginTime="00:00:00.4" Storyboard.TargetProperty="Opacity" Storyboard.TargetName="R3">
+                                                <DiscreteDoubleKeyFrame KeyTime="0" Value="1"/>
+                                                <DiscreteDoubleKeyFrame KeyTime="00:00:02.5" Value="0"/>
+                                            </DoubleAnimationUsingKeyFrames>
+                                            <DoubleAnimationUsingKeyFrames BeginTime="00:00:00.6" Storyboard.TargetProperty="Opacity" Storyboard.TargetName="R4">
+                                                <DiscreteDoubleKeyFrame KeyTime="0" Value="1"/>
+                                                <DiscreteDoubleKeyFrame KeyTime="00:00:02.5" Value="0"/>
+                                            </DoubleAnimationUsingKeyFrames>
+                                            <DoubleAnimationUsingKeyFrames BeginTime="00:00:00.8" Storyboard.TargetProperty="Opacity" Storyboard.TargetName="R5">
+                                                <DiscreteDoubleKeyFrame KeyTime="0" Value="1"/>
+                                                <DiscreteDoubleKeyFrame KeyTime="00:00:02.5" Value="0"/>
+                                            </DoubleAnimationUsingKeyFrames>
+                                        </Storyboard>
+                                    </VisualState>
+                                </VisualStateGroup>
+                            </VisualStateManager.VisualStateGroups>
+                            <Grid x:Name="Root">
+                                <Border x:Name="PART_Track"
+                                BorderBrush="{TemplateBinding BorderBrush}"
+                                BorderThickness="{TemplateBinding BorderThickness}"
+                                Background="{TemplateBinding Background}" />
+                                <Grid x:Name="ProgressBarRootGrid">
+                                    <Grid x:Name="IndeterminateRoot" Visibility="Collapsed" ClipToBounds="True">
+                                        <Grid HorizontalAlignment="Left">
+                                            <Border Background="{TemplateBinding Foreground}" CornerRadius="6" Height="6" IsHitTestVisible="False" Width="6" x:Name="R1" Opacity="0">
+                                                <Border.RenderTransform>
+                                                    <TranslateTransform x:Name="R1TT"/>
+                                                </Border.RenderTransform>
+                                            </Border>
+                                            <Border Background="{TemplateBinding Foreground}" CornerRadius="6" Height="6" IsHitTestVisible="False" Width="6" x:Name="R2" Opacity="0">
+                                                <Border.RenderTransform>
+                                                    <TranslateTransform x:Name="R2TT"/>
+                                                </Border.RenderTransform>
+                                            </Border>
+                                            <Border Background="{TemplateBinding Foreground}" CornerRadius="6" Height="6" IsHitTestVisible="False" Width="6" x:Name="R3" Opacity="0">
+                                                <Border.RenderTransform>
+                                                    <TranslateTransform x:Name="R3TT"/>
+                                                </Border.RenderTransform>
+                                            </Border>
+                                            <Border Background="{TemplateBinding Foreground}" CornerRadius="6" Height="6" IsHitTestVisible="False" Width="6" x:Name="R4" Opacity="0">
+                                                <Border.RenderTransform>
+                                                    <TranslateTransform x:Name="R4TT"/>
+                                                </Border.RenderTransform>
+                                            </Border>
+                                            <Border Background="{TemplateBinding Foreground}" CornerRadius="6" Height="6" IsHitTestVisible="False" Width="6" x:Name="R5" Opacity="0">
+                                                <Border.RenderTransform>
+                                                    <TranslateTransform x:Name="R5TT"/>
+                                                </Border.RenderTransform>
+                                            </Border>
+                                        </Grid>
+                                    </Grid>
+                                    <Grid x:Name="DeterminateRoot">
+                                        <Border x:Name="PART_Indicator"
+                                        Background="{TemplateBinding Foreground}"
+                                        HorizontalAlignment="Left" />
+                                    </Grid>
+                                </Grid>
+                            </Grid>
+                        </Helper:RelativeAnimatingContentControl>
+
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="Orientation" Value="Vertical">
+                                <Setter Property="LayoutTransform" TargetName="Root">
+                                    <Setter.Value>
+                                        <RotateTransform Angle="-90" />
+                                    </Setter.Value>
+                                </Setter>
+                            </Trigger>
+                            <Trigger Property="IsIndeterminate" Value="true">
+                                <Setter Property="Visibility" TargetName="IndeterminateRoot" Value="Visible" />
+                                <Setter Property="Visibility" TargetName="DeterminateRoot" Value="Collapsed" />
+                                <Setter Property="Background" TargetName="PART_Track" Value="Transparent" />
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+
+        </Style>
+
+        <LinearGradientBrush x:Key="MouseOverBrush" EndPoint="0,1" StartPoint="0,0">
+            <GradientStop Color="#FFF" Offset="0.0"/>
+            <GradientStop Color="#AAA" Offset="1.0"/>
+        </LinearGradientBrush>
+
+        <LinearGradientBrush x:Key="LightBrush" EndPoint="0,1" StartPoint="0,0">
+            <GradientStop Color="#FFF" Offset="0.0"/>
+            <GradientStop Color="#EEE" Offset="1.0"/>
+        </LinearGradientBrush>
+
+        <LinearGradientBrush x:Key="NormalBorderBrush" EndPoint="0,1" StartPoint="0,0">
+            <GradientStop Color="#CCC" Offset="0.0"/>
+            <GradientStop Color="#444" Offset="1.0"/>
+        </LinearGradientBrush>
+
+        <Style x:Key="SimpleScrollRepeatButtonStyle"  TargetType="{x:Type RepeatButton}">
+            <Setter Property="Background" Value="Transparent"/>
+            <Setter Property="BorderBrush" Value="Transparent"/>
+            <Setter Property="IsTabStop" Value="false"/>
+            <Setter Property="Focusable" Value="false"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="{x:Type RepeatButton}">
+                        <Grid>
+                            <Rectangle Fill="{TemplateBinding Background}" Stroke="{TemplateBinding BorderBrush}" StrokeThickness="{TemplateBinding BorderThickness}"/>
+                        </Grid>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+
+        <Style x:Key="ThumbStyle1"  TargetType="{x:Type Thumb}">
+            <Setter Property="SnapsToDevicePixels" Value="true"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="{x:Type Thumb}">
+                        <Grid Width="140" Height="160" >
+                            <!--<Ellipse x:Name="Ellipse" />-->
+                            <Border CornerRadius="30" Height="80" Margin="15,-40,0,0" Width="80" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Background="{DynamicResource ThemeColor}" BorderBrush="{x:Null}">
+                            </Border>
+                            <Border CornerRadius="10"  HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Background="{x:Null}" BorderBrush="{x:Null}">
+                                <!--  <Border.Background>
+                                   <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                                        <GradientStop Color="#FFFBFBFB" Offset="0.075"/>
+                                        <GradientStop Color="Gainsboro" Offset="0.491"/>
+                                        <GradientStop Color="#FFCECECE" Offset="0.509"/>
+                                        <GradientStop Color="#FFA6A6A6" Offset="0.943"/>
+                                    </LinearGradientBrush>
+									<ImageBrush ImageSource="button.png" AlignmentX="Center" AlignmentY="Center"/>
+                                </Border.Background>-->
+                                <Image Source="pack://application:,,,/AppView;component/Images/button1.png" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Stretch="UniformToFill" />
+                            </Border>
+
+
+                        </Grid>
+                        <ControlTemplate.Triggers>
+                            <!-- <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Fill" Value="{StaticResource MouseOverBrush}" TargetName="Ellipse"/>
+                            </Trigger>
+                            <Trigger Property="IsEnabled" Value="false">
+                                <Setter Property="Fill" Value="{DynamicResource DisabledBackgroundBrush}" TargetName="Ellipse"/>
+                            </Trigger>-->
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+
+        <Style x:Key="SliderStyle1" TargetType="{x:Type Slider}">
+            <Setter Property="Background" Value="{StaticResource LightBrush}"/>
+            <Setter Property="BorderBrush" Value="{StaticResource NormalBorderBrush}"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="{x:Type Slider}">
+                        <Border CornerRadius="14" Padding="4" >
+
+                            <Grid x:Name="GridRoot" >
+
+                                <Image Source="pack://application:,,,/AppView;component/Images/inside.png"/>
+                                <ProgressBar Foreground="{DynamicResource ThemeColor}" Style="{DynamicResource ProgressBarStyle1}" Minimum="1" Maximum="2" Margin="16,18,15,18" Value="{Binding RelativeSource={RelativeSource TemplatedParent}, Path=Value,Converter={StaticResource progress}}"  Background="Transparent" BorderBrush="{x:Null}">
+                                </ProgressBar>
+                                <Image Source="pack://application:,,,/AppView;component/Images/outline3.png" />
+
+                                <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" />
+                                <!-- TickBar shows the ticks for Slider -->
+                                <Grid>
+
+                                    <!-- The Track lays out the repeat buttons and thumb -->
+                                    <Track x:Name="PART_Track" Height="Auto" OpacityMask="#FFCBA6A6">
+                                        <Track.Thumb>
+                                            <Thumb x:Name="thumb" Style="{StaticResource ThumbStyle1}"   Margin="-10,6,0,0" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                                        </Track.Thumb>
+                                        <Track.IncreaseRepeatButton>
+                                            <RepeatButton Style="{StaticResource SimpleScrollRepeatButtonStyle}" Command="Slider.IncreaseLarge" Background="Transparent"/>
+                                        </Track.IncreaseRepeatButton>
+                                        <Track.DecreaseRepeatButton>
+                                            <RepeatButton Style="{StaticResource SimpleScrollRepeatButtonStyle}" Command="Slider.DecreaseLarge" />
+                                        </Track.DecreaseRepeatButton>
+                                    </Track>
+                                </Grid>
+                            </Grid>
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="TickPlacement" Value="TopLeft"/>
+                            <Trigger Property="TickPlacement" Value="BottomRight"/>
+                            <Trigger Property="TickPlacement" Value="Both"/>
+                            <Trigger Property="IsEnabled" Value="false"/>
+
+                            <!-- Use a rotation to create a Vertical Slider form the default Horizontal -->
+                            <Trigger Property="Orientation" Value="Vertical">
+                                <Setter Property="LayoutTransform" TargetName="GridRoot">
+                                    <Setter.Value>
+                                        <RotateTransform Angle="-90"/>
+                                    </Setter.Value>
+                                </Setter>
+                                <!-- Track rotates itself based on orientation so need to force it back -->
+                                <Setter TargetName="PART_Track" Property="Orientation" Value="Horizontal"/>
+                                <Setter Property="Background" TargetName="thumb" Value="#FF0031D6"/>
+                                <Setter Property="BorderBrush" TargetName="thumb">
+                                    <Setter.Value>
+                                        <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                                            <GradientStop Color="Black" Offset="0"/>
+                                            <GradientStop Color="#FF8B0909" Offset="1"/>
+                                        </LinearGradientBrush>
+                                    </Setter.Value>
+                                </Setter>
+                                <Setter Property="Foreground" TargetName="thumb" Value="#FFBB4444"/>
+                                <Setter Property="OpacityMask" TargetName="thumb" Value="#FFC52121"/>
+                            </Trigger>
+
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+
+        <SolidColorBrush x:Key="ProgressBar.Progress" Color="#FF06B025"/>
+
+        <SolidColorBrush x:Key="ProgressBar.Background" Color="#FFE6E6E6"/>
+
+        <SolidColorBrush x:Key="ProgressBar.Border" Color="#FFBCBCBC"/>
+
+        <Style x:Key="ProgressBarStyle1" TargetType="{x:Type ProgressBar}">
+            <Setter Property="Foreground" Value="{StaticResource ProgressBar.Progress}"/>
+            <Setter Property="Background" Value="{StaticResource ProgressBar.Background}"/>
+            <Setter Property="BorderBrush" Value="{StaticResource ProgressBar.Border}"/>
+            <Setter Property="BorderThickness" Value="1"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="{x:Type ProgressBar}">
+                        <Grid x:Name="TemplateRoot">
+                            <VisualStateManager.VisualStateGroups>
+                                <VisualStateGroup x:Name="CommonStates">
+                                    <VisualState x:Name="Determinate"/>
+                                    <VisualState x:Name="Indeterminate">
+                                        <Storyboard RepeatBehavior="Forever">
+                                            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[0].(ScaleTransform.ScaleX)" Storyboard.TargetName="Animation">
+                                                <EasingDoubleKeyFrame KeyTime="0" Value="0.25"/>
+                                                <EasingDoubleKeyFrame KeyTime="0:0:1" Value="0.25"/>
+                                                <EasingDoubleKeyFrame KeyTime="0:0:2" Value="0.25"/>
+                                            </DoubleAnimationUsingKeyFrames>
+                                            <PointAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransformOrigin)" Storyboard.TargetName="Animation">
+                                                <EasingPointKeyFrame KeyTime="0" Value="-0.5,0.5"/>
+                                                <EasingPointKeyFrame KeyTime="0:0:1" Value="0.5,0.5"/>
+                                                <EasingPointKeyFrame KeyTime="0:0:2" Value="1.5,0.5"/>
+                                            </PointAnimationUsingKeyFrames>
+                                        </Storyboard>
+                                    </VisualState>
+                                </VisualStateGroup>
+                            </VisualStateManager.VisualStateGroups>
+                            <Border BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="{TemplateBinding BorderThickness}" Background="{TemplateBinding Background}" CornerRadius="20"/>
+                            <Border x:Name="PART_Track" />
+                            <Border >
+                                <Grid x:Name="PART_Indicator" ClipToBounds="true" HorizontalAlignment="Left">
+                                    <Border x:Name="Indicator" CornerRadius="30" Background="{TemplateBinding Foreground}"/>
+                                    <Border x:Name="Animation" CornerRadius="30" Background="{TemplateBinding Foreground}" RenderTransformOrigin="0.5,0.5">
+                                        <Image Source="pack://application:,,,/AppView;component/Images/glow.png" Margin="-30"/>
+                                    </Border>
+                                </Grid>
+                            </Border>
+                        </Grid>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="Orientation" Value="Vertical">
+                                <Setter Property="LayoutTransform" TargetName="TemplateRoot">
+                                    <Setter.Value>
+                                        <RotateTransform Angle="-90"/>
+                                    </Setter.Value>
+                                </Setter>
+                            </Trigger>
+                            <Trigger Property="IsIndeterminate" Value="true">
+                                <Setter Property="Visibility" TargetName="Indicator" Value="Collapsed"/>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </Page.Resources>
+
+    <Grid>
+        <Slider x:Name="sild" Height="140" Ticks="0" TickFrequency="0" SmallChange="0" LargeChange="0" IsSnapToTickEnabled="False" Thumb.DragCompleted="sild_DragCompleted"  Width="280"  Margin="0,0,0,0" Style="{StaticResource SliderStyle1}" ValueChanged="sild_ValueChanged"  Minimum="1" Interval="1"  Maximum="2"/>
+
+        <Grid Margin="0,-50,0,-50" Background="Transparent" Panel.ZIndex="1" Visibility="Collapsed"></Grid>
+
+        <Canvas Height="12" Width="400" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="68,256,49,51">
+            <ProgressBar IsIndeterminate="True"  Height="12" Width="400" Style="{StaticResource MetroProgress}" Foreground="{DynamicResource ThemeColor}"/>
+        </Canvas>
+    </Grid>
+</Page>

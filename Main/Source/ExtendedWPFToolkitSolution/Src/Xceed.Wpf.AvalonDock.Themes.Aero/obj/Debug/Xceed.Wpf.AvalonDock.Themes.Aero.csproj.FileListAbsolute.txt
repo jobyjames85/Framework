@@ -1,0 +1,46 @@
+G:\Project\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.AvalonDock.Themes.Aero\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Aero.dll
+G:\Project\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.AvalonDock.Themes.Aero\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Aero.pdb
+G:\Project\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.AvalonDock.Themes.Aero\bin\Debug\Xceed.Wpf.AvalonDock.dll
+G:\Project\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.AvalonDock.Themes.Aero\bin\Debug\Xceed.Wpf.AvalonDock.pdb
+G:\Project\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.AvalonDock.Themes.Aero\bin\Debug\de\Xceed.Wpf.AvalonDock.resources.dll
+G:\Project\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.AvalonDock.Themes.Aero\bin\Debug\es\Xceed.Wpf.AvalonDock.resources.dll
+G:\Project\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.AvalonDock.Themes.Aero\bin\Debug\fr\Xceed.Wpf.AvalonDock.resources.dll
+G:\Project\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.AvalonDock.Themes.Aero\bin\Debug\hu\Xceed.Wpf.AvalonDock.resources.dll
+G:\Project\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.AvalonDock.Themes.Aero\bin\Debug\it\Xceed.Wpf.AvalonDock.resources.dll
+G:\Project\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.AvalonDock.Themes.Aero\bin\Debug\pt-BR\Xceed.Wpf.AvalonDock.resources.dll
+G:\Project\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.AvalonDock.Themes.Aero\bin\Debug\ro\Xceed.Wpf.AvalonDock.resources.dll
+G:\Project\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.AvalonDock.Themes.Aero\bin\Debug\ru\Xceed.Wpf.AvalonDock.resources.dll
+G:\Project\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.AvalonDock.Themes.Aero\bin\Debug\sv\Xceed.Wpf.AvalonDock.resources.dll
+G:\Project\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.AvalonDock.Themes.Aero\bin\Debug\zh-Hans\Xceed.Wpf.AvalonDock.resources.dll
+G:\Project\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.AvalonDock.Themes.Aero\obj\Debug\Xceed.Wpf.AvalonDock.Themes.Aero.csprojResolveAssemblyReference.cache
+G:\Project\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.AvalonDock.Themes.Aero\obj\Debug\GeneratedInternalTypeHelper.g.cs
+G:\Project\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.AvalonDock.Themes.Aero\obj\Debug\Xceed.Wpf.AvalonDock.Themes.Aero_MarkupCompile.cache
+G:\Project\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.AvalonDock.Themes.Aero\obj\Debug\Xceed.Wpf.AvalonDock.Themes.Aero_MarkupCompile.lref
+G:\Project\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.AvalonDock.Themes.Aero\obj\Debug\Brushes.baml
+G:\Project\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.AvalonDock.Themes.Aero\obj\Debug\Theme.baml
+G:\Project\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.AvalonDock.Themes.Aero\obj\Debug\Xceed.Wpf.AvalonDock.Themes.Aero.g.resources
+G:\Project\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.AvalonDock.Themes.Aero\obj\Debug\Xceed.Wpf.AvalonDock.Themes.Aero.dll
+G:\Project\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.AvalonDock.Themes.Aero\obj\Debug\Xceed.Wpf.AvalonDock.Themes.Aero.pdb
+D:\Joby TFS\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.AvalonDock.Themes.Aero\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Aero.dll
+D:\Joby TFS\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.AvalonDock.Themes.Aero\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Aero.pdb
+D:\Joby TFS\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.AvalonDock.Themes.Aero\bin\Debug\Xceed.Wpf.AvalonDock.dll
+D:\Joby TFS\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.AvalonDock.Themes.Aero\bin\Debug\Xceed.Wpf.AvalonDock.pdb
+D:\Joby TFS\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.AvalonDock.Themes.Aero\bin\Debug\de\Xceed.Wpf.AvalonDock.resources.dll
+D:\Joby TFS\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.AvalonDock.Themes.Aero\bin\Debug\es\Xceed.Wpf.AvalonDock.resources.dll
+D:\Joby TFS\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.AvalonDock.Themes.Aero\bin\Debug\fr\Xceed.Wpf.AvalonDock.resources.dll
+D:\Joby TFS\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.AvalonDock.Themes.Aero\bin\Debug\hu\Xceed.Wpf.AvalonDock.resources.dll
+D:\Joby TFS\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.AvalonDock.Themes.Aero\bin\Debug\it\Xceed.Wpf.AvalonDock.resources.dll
+D:\Joby TFS\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.AvalonDock.Themes.Aero\bin\Debug\pt-BR\Xceed.Wpf.AvalonDock.resources.dll
+D:\Joby TFS\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.AvalonDock.Themes.Aero\bin\Debug\ro\Xceed.Wpf.AvalonDock.resources.dll
+D:\Joby TFS\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.AvalonDock.Themes.Aero\bin\Debug\ru\Xceed.Wpf.AvalonDock.resources.dll
+D:\Joby TFS\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.AvalonDock.Themes.Aero\bin\Debug\sv\Xceed.Wpf.AvalonDock.resources.dll
+D:\Joby TFS\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.AvalonDock.Themes.Aero\bin\Debug\zh-Hans\Xceed.Wpf.AvalonDock.resources.dll
+D:\Joby TFS\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.AvalonDock.Themes.Aero\obj\Debug\Xceed.Wpf.AvalonDock.Themes.Aero.csprojResolveAssemblyReference.cache
+D:\Joby TFS\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.AvalonDock.Themes.Aero\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\Joby TFS\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.AvalonDock.Themes.Aero\obj\Debug\Xceed.Wpf.AvalonDock.Themes.Aero_MarkupCompile.cache
+D:\Joby TFS\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.AvalonDock.Themes.Aero\obj\Debug\Xceed.Wpf.AvalonDock.Themes.Aero_MarkupCompile.lref
+D:\Joby TFS\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.AvalonDock.Themes.Aero\obj\Debug\Brushes.baml
+D:\Joby TFS\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.AvalonDock.Themes.Aero\obj\Debug\Theme.baml
+D:\Joby TFS\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.AvalonDock.Themes.Aero\obj\Debug\Xceed.Wpf.AvalonDock.Themes.Aero.g.resources
+D:\Joby TFS\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.AvalonDock.Themes.Aero\obj\Debug\Xceed.Wpf.AvalonDock.Themes.Aero.dll
+D:\Joby TFS\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.AvalonDock.Themes.Aero\obj\Debug\Xceed.Wpf.AvalonDock.Themes.Aero.pdb

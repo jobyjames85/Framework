@@ -1,0 +1,14 @@
+G:\Project\Framework\Framework.Data\bin\Debug\Framework.Data.dll
+G:\Project\Framework\Framework.Data\bin\Debug\Framework.Data.pdb
+G:\Project\Framework\Framework.Data\obj\Debug\Framework.Data.csprojResolveAssemblyReference.cache
+G:\Project\Framework\Framework.Data\obj\Debug\Framework.Data.Properties.Resources.resources
+G:\Project\Framework\Framework.Data\obj\Debug\Framework.Data.csproj.GenerateResource.Cache
+G:\Project\Framework\Framework.Data\obj\Debug\Framework.Data.dll
+G:\Project\Framework\Framework.Data\obj\Debug\Framework.Data.pdb
+D:\Joby TFS\Framework\Framework.Data\bin\Debug\Framework.Data.dll
+D:\Joby TFS\Framework\Framework.Data\bin\Debug\Framework.Data.pdb
+D:\Joby TFS\Framework\Framework.Data\obj\Debug\Framework.Data.csprojResolveAssemblyReference.cache
+D:\Joby TFS\Framework\Framework.Data\obj\Debug\Framework.Data.Properties.Resources.resources
+D:\Joby TFS\Framework\Framework.Data\obj\Debug\Framework.Data.csproj.GenerateResource.Cache
+D:\Joby TFS\Framework\Framework.Data\obj\Debug\Framework.Data.dll
+D:\Joby TFS\Framework\Framework.Data\obj\Debug\Framework.Data.pdb

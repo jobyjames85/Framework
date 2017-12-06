@@ -1,0 +1,90 @@
+F:\Project\Framework\Framework\bin\Debug\Framework.exe.config
+F:\Project\Framework\Framework\bin\Debug\Framework.exe
+F:\Project\Framework\Framework\bin\Debug\Framework.pdb
+F:\Project\Framework\Framework\obj\Debug\MainWindow.baml
+F:\Project\Framework\Framework\obj\Debug\MainWindow.g.cs
+F:\Project\Framework\Framework\obj\Debug\App.g.cs
+F:\Project\Framework\Framework\obj\Debug\Framework_MarkupCompile.cache
+F:\Project\Framework\Framework\obj\Debug\Framework.g.resources
+F:\Project\Framework\Framework\obj\Debug\Framework.Properties.Resources.resources
+F:\Project\Framework\Framework\obj\Debug\Framework.csproj.GenerateResource.Cache
+F:\Project\Framework\Framework\obj\Debug\Framework.exe
+F:\Project\Framework\Framework\obj\Debug\Framework.pdb
+F:\Project\Framework\Framework\obj\Debug\Framework.csprojResolveAssemblyReference.cache
+G:\Project\Framework\Framework\obj\Debug\Framework.csprojResolveAssemblyReference.cache
+G:\Project\Framework\Framework\obj\Debug\MainWindow.g.cs
+G:\Project\Framework\Framework\obj\Debug\App.g.cs
+G:\Project\Framework\Framework\obj\Debug\Framework_MarkupCompile.cache
+G:\Project\Framework\Framework\obj\Debug\Framework_MarkupCompile.lref
+G:\Project\Framework\Framework\bin\Debug\Framework.exe.config
+G:\Project\Framework\Framework\bin\Debug\Framework.exe
+G:\Project\Framework\Framework\bin\Debug\Framework.pdb
+G:\Project\Framework\Framework\bin\Debug\FabTab.dll
+G:\Project\Framework\Framework\bin\Debug\Framework.Themes.dll
+G:\Project\Framework\Framework\bin\Debug\Microsoft.Windows.Shell.dll
+G:\Project\Framework\Framework\bin\Debug\Odyssey.dll
+G:\Project\Framework\Framework\bin\Debug\Framework.Themes.pdb
+G:\Project\Framework\Framework\bin\Debug\FabTab.pdb
+G:\Project\Framework\Framework\bin\Debug\Odyssey.pdb
+G:\Project\Framework\Framework\obj\Debug\MainWindow.baml
+G:\Project\Framework\Framework\obj\Debug\Framework.g.resources
+G:\Project\Framework\Framework\obj\Debug\Framework.Properties.Resources.resources
+G:\Project\Framework\Framework\obj\Debug\Framework.csproj.GenerateResource.Cache
+G:\Project\Framework\Framework\obj\Debug\Framework.exe
+G:\Project\Framework\Framework\obj\Debug\Framework.pdb
+G:\Project\Framework\Framework\bin\Debug\Framework.devControls.dll
+G:\Project\Framework\Framework\bin\Debug\Framework.devControls.pdb
+G:\Project\Framework\Framework\bin\Debug\Framework.Data.dll
+G:\Project\Framework\Framework\bin\Debug\Framework.Data.pdb
+G:\Project\Framework\Framework\bin\Debug\AppData.exe
+G:\Project\Framework\Framework\bin\Debug\AppData.pdb
+G:\Project\Framework\Framework\bin\Debug\Microsoft.Practices.EnterpriseLibrary.SemanticLogging.dll
+G:\Project\Framework\Framework\bin\Debug\Newtonsoft.Json.dll
+G:\Project\Framework\Framework\bin\Debug\Microsoft.Practices.EnterpriseLibrary.SemanticLogging.xml
+G:\Project\Framework\Framework\bin\Debug\Newtonsoft.Json.xml
+G:\Project\Framework\Framework\bin\Debug\Xceed.Wpf.Toolkit.dll
+G:\Project\Framework\Framework\bin\Debug\Xceed.Wpf.Toolkit.pdb
+G:\Project\Framework\Framework\bin\Debug\AppView.dll
+G:\Project\Framework\Framework\bin\Debug\AppView.pdb
+G:\Project\Framework\Framework\bin\Debug\AppViewModel.dll
+G:\Project\Framework\Framework\bin\Debug\AppViewModel.pdb
+E:\TFS online\Framework\Framework\Framework\bin\Debug\Framework.exe.config
+E:\TFS online\Framework\Framework\Framework\obj\Debug\Framework.exe
+E:\TFS online\Framework\Framework\Framework\obj\Debug\Framework.pdb
+D:\Joby TFS\Framework\Framework\bin\Debug\Framework.exe.config
+D:\Joby TFS\Framework\Framework\obj\Debug\Framework.exe
+D:\Joby TFS\Framework\Framework\obj\Debug\Framework.pdb
+D:\Joby TFS\Framework\Framework\obj\Debug\Framework.csprojResolveAssemblyReference.cache
+D:\Joby TFS\Framework\Framework\obj\Debug\App.g.cs
+D:\Joby TFS\Framework\Framework\obj\Debug\Framework_MarkupCompile.cache
+D:\Joby TFS\Framework\Framework\obj\Debug\MainWindow.g.cs
+D:\Joby TFS\Framework\Framework\obj\Debug\Framework_MarkupCompile.lref
+D:\Joby TFS\Framework\Framework\bin\Debug\Framework.exe
+D:\Joby TFS\Framework\Framework\bin\Debug\Framework.pdb
+D:\Joby TFS\Framework\Framework\bin\Debug\AppData.exe
+D:\Joby TFS\Framework\Framework\bin\Debug\AppView.dll
+D:\Joby TFS\Framework\Framework\bin\Debug\FabTab.dll
+D:\Joby TFS\Framework\Framework\bin\Debug\Framework.Data.dll
+D:\Joby TFS\Framework\Framework\bin\Debug\Framework.devControls.dll
+D:\Joby TFS\Framework\Framework\bin\Debug\Framework.Themes.dll
+D:\Joby TFS\Framework\Framework\bin\Debug\Microsoft.Practices.EnterpriseLibrary.SemanticLogging.dll
+D:\Joby TFS\Framework\Framework\bin\Debug\Microsoft.Windows.Shell.dll
+D:\Joby TFS\Framework\Framework\bin\Debug\Newtonsoft.Json.dll
+D:\Joby TFS\Framework\Framework\bin\Debug\Odyssey.dll
+D:\Joby TFS\Framework\Framework\bin\Debug\Xceed.Wpf.Toolkit.dll
+D:\Joby TFS\Framework\Framework\bin\Debug\AppViewModel.dll
+D:\Joby TFS\Framework\Framework\bin\Debug\AppData.pdb
+D:\Joby TFS\Framework\Framework\bin\Debug\AppView.pdb
+D:\Joby TFS\Framework\Framework\bin\Debug\FabTab.pdb
+D:\Joby TFS\Framework\Framework\bin\Debug\Framework.Data.pdb
+D:\Joby TFS\Framework\Framework\bin\Debug\Framework.devControls.pdb
+D:\Joby TFS\Framework\Framework\bin\Debug\Framework.Themes.pdb
+D:\Joby TFS\Framework\Framework\bin\Debug\Xceed.Wpf.Toolkit.pdb
+D:\Joby TFS\Framework\Framework\bin\Debug\Odyssey.pdb
+D:\Joby TFS\Framework\Framework\bin\Debug\Microsoft.Practices.EnterpriseLibrary.SemanticLogging.xml
+D:\Joby TFS\Framework\Framework\bin\Debug\Newtonsoft.Json.xml
+D:\Joby TFS\Framework\Framework\bin\Debug\AppViewModel.pdb
+D:\Joby TFS\Framework\Framework\obj\Debug\MainWindow.baml
+D:\Joby TFS\Framework\Framework\obj\Debug\Framework.g.resources
+D:\Joby TFS\Framework\Framework\obj\Debug\Framework.Properties.Resources.resources
+D:\Joby TFS\Framework\Framework\obj\Debug\Framework.csproj.GenerateResource.Cache

@@ -1,0 +1,862 @@
+<i:Interaction.Behaviors>
+        <vm:WindowCloseBehaviourCommand CloseButton="{Binding ElementName=CancelButton}"/>
+    </i:Interaction.Behaviors> 
+
+     /// <summary>
+    /// Represents the WindowClose
+    /// </summary>
+    public class WindowCloseBehaviourCommand : Behavior<Window>
+    {
+        #region Field property
+
+        /// <summary>
+        /// Field for Command
+        /// </summary>
+        public static readonly DependencyProperty CommandProperty = DependencyProperty.Register("Command", typeof(ICommand), typeof(WindowCloseBehaviourCommand));
+
+        /// <summary>
+        /// Field for CommandParameter
+        /// </summary>
+        public static readonly DependencyProperty CommandParameterProperty = DependencyProperty.Register("CommandParameter", typeof(object), typeof(WindowCloseBehaviourCommand));
+
+        /// <summary>
+        /// Field for CloseButton
+        /// </summary>
+        public static readonly DependencyProperty CloseButtonProperty = DependencyProperty.Register("CloseButton", typeof(Button), typeof(WindowCloseBehaviourCommand), new FrameworkPropertyMetadata(null, OnButtonChanged));
+
+        #endregion
+
+        #region public property
+
+        /// <summary>
+        /// Gets or sets the Command
+        /// </summary>
+        public ICommand Command
+        {
+            get
+            {
+                return (ICommand)GetValue(CommandProperty); 
+            }
+
+            set 
+            {
+                this.SetValue(CommandProperty, value); 
+            }
+        }
+
+        /// <summary>
+        /// Gets or sets the CommandParameter
+        /// </summary>
+        public object CommandParameter
+        {
+            get
+            {
+                return this.GetValue(CommandParameterProperty); 
+            }
+
+            set
+            {
+                this.SetValue(CommandParameterProperty, value); 
+            }
+        }
+
+        /// <summary>
+        /// Gets or sets the CloseButton
+        /// </summary>
+        public Button CloseButton
+        {
+            get 
+            {
+                return (Button)GetValue(CloseButtonProperty); 
+            }
+
+            set
+            {
+                this.SetValue(CloseButtonProperty, value); 
+            }
+        }
+
+        #endregion
+
+        #region private Method
+
+        /// <summary>
+        /// OnButtonChanged Method
+        /// </summary>
+        /// <param name="d">Parameter Object</param>
+        /// <param name="e">Event Parameter</param>
+        private static void OnButtonChanged(DependencyObject d, DependencyPropertyChangedEventArgs e)
+        {
+            var window = (Window)((WindowCloseBehaviourCommand)d).AssociatedObject;
+            ((Button)e.NewValue).Click += (s, e1) =>
+            {
+                var command = ((WindowCloseBehaviourCommand)d).Command;
+                var commandParameter = ((WindowCloseBehaviourCommand)d).CommandParameter;
+                if (command != null)
+                {
+                    command.Execute(commandParameter);
+                }
+
+                if (commandParameter != null)
+                {
+                    App.AccessRole = null;
+                }
+
+                window.Close();
+            };
+        }
+
+        #endregion
+    }
+*****************************************************************************************
+     ////MouseDoubleClick="{vm:EventBinding OnClick}"
+
+
+     /// <summary>
+    /// Represents the EventBindingExtension
+    /// </summary>
+    public class EventBindingExtension : MarkupExtension
+    {
+        /// <summary>
+        /// Dictionary Object
+        /// </summary>
+        private static readonly Dictionary<Type, Delegate> DummyHandlers = new Dictionary<Type, Delegate>();
+
+        /// <summary>
+        /// Field for eventInfo
+        /// </summary>
+        private EventInfo eventInfo;
+
+        /// <summary>
+        /// Initializes a new instance of the <see cref="EventBindingExtension"/> class
+        /// </summary>
+        public EventBindingExtension()
+        {
+        }
+
+        /// <summary>
+        /// Initializes a new instance of the <see cref="EventBindingExtension"/> class
+        /// </summary>
+        /// <param name="eventHandlerName">Event Name</param>
+        public EventBindingExtension(string eventHandlerName)
+        {
+            this.EventHandlerName = eventHandlerName;
+        }
+
+        /// <summary>
+        /// Gets or sets the HandlerName
+        /// </summary>
+        [ConstructorArgument("eventHandlerName")]
+        public string EventHandlerName { get; set; }
+
+        /// <summary>
+        /// Override MarkupExtension Method 
+        /// </summary>
+        /// <param name="serviceProvider">service Provider</param>
+        /// <returns>Return Handler</returns>
+        public override object ProvideValue(IServiceProvider serviceProvider)
+        { 
+           
+            if (string.IsNullOrEmpty(this.EventHandlerName))
+            {
+                throw new ArgumentException("The EventHandlerName property is not set", "EventHandlerName");
+            }
+
+            var target = (IProvideValueTarget)serviceProvider.GetService(typeof(IProvideValueTarget));
+
+            var targetObj = target.TargetObject as DependencyObject;
+            if (targetObj == null)
+            {
+                throw new InvalidOperationException("The target object must be a DependencyObject");
+            }
+
+            this.eventInfo = target.TargetProperty as EventInfo;
+            if (this.eventInfo == null)
+            {
+                throw new InvalidOperationException("The target property must be an event");
+            }
+
+            object dataContext = GetDataContext(targetObj);
+            if (dataContext == null)
+            {
+                this.SubscribeToDataContextChanged(targetObj);
+                return GetDummyHandler(this.eventInfo.EventHandlerType);
+            }
+
+            var handler = GetHandler(dataContext, this.eventInfo, this.EventHandlerName);
+            if (handler == null)
+            {
+                Trace.TraceError(
+                    "EventBinding: no suitable method named '{0}' found in type '{1}' to handle event '{2'}",
+                    this.EventHandlerName,
+                    dataContext.GetType(),
+                    this.eventInfo);
+                return GetDummyHandler(this.eventInfo.EventHandlerType);
+            }
+
+            return handler;
+        }
+
+        #region Helper methods
+
+        /// <summary>
+        /// GetHandler Method
+        /// </summary>
+        /// <param name="dataContext">Data Context</param>
+        /// <param name="eventInfo">Event Info</param>
+        /// <param name="eventHandlerName">Event Handler Name</param>
+        /// <returns>Return Value</returns>
+        private static Delegate GetHandler(object dataContext, EventInfo eventInfo, string eventHandlerName)
+        {
+            Type dcType = dataContext.GetType();
+
+            var method = dcType.GetMethod(eventHandlerName, GetParameterTypes(eventInfo.EventHandlerType));
+            if (method != null)
+            {
+                if (method.IsStatic)
+                {
+                    return Delegate.CreateDelegate(eventInfo.EventHandlerType, method);
+                }
+                else
+                {
+                    return Delegate.CreateDelegate(eventInfo.EventHandlerType, dataContext, method);
+                }
+            }
+
+            return null;
+        }
+
+        /// <summary>
+        /// GetParameter Types
+        /// </summary>
+        /// <param name="delegateType">Delegate Type</param>
+        /// <returns>Return Value</returns>
+        private static Type[] GetParameterTypes(Type delegateType)
+        {
+            var invokeMethod = delegateType.GetMethod("Invoke");
+            return invokeMethod.GetParameters().Select(p => p.ParameterType).ToArray();
+        }
+
+        /// <summary>
+        /// GetDataContext Method
+        /// </summary>
+        /// <param name="target">Dependency Object</param>
+        /// <returns>Return Value</returns>
+        private static object GetDataContext(DependencyObject target)
+        {
+            return target.GetValue(FrameworkElement.DataContextProperty) ?? target.GetValue(FrameworkContentElement.DataContextProperty);
+        }
+
+        /// <summary>
+        /// GetDummy Handler
+        /// </summary>
+        /// <param name="eventHandlerType">Event Handler Type</param>
+        /// <returns>Return Handler</returns>
+        private static Delegate GetDummyHandler(Type eventHandlerType)
+        {
+            Delegate handler;
+            if (!DummyHandlers.TryGetValue(eventHandlerType, out handler))
+            {
+                handler = CreateDummyHandler(eventHandlerType);
+                DummyHandlers[eventHandlerType] = handler;
+            }
+
+            return handler;
+        }
+
+        /// <summary>
+        /// Create Dummy Handler
+        /// </summary>
+        /// <param name="eventHandlerType">EventHandler Type</param>
+        /// <returns>Return Handler</returns>
+        private static Delegate CreateDummyHandler(Type eventHandlerType)
+        {
+            var parameterTypes = GetParameterTypes(eventHandlerType);
+            var returnType = eventHandlerType.GetMethod("Invoke").ReturnType;
+            var dm = new DynamicMethod("DummyHandler", returnType, parameterTypes);
+            var il = dm.GetILGenerator();
+            if (returnType != typeof(void))
+            {
+                if (returnType.IsValueType)
+                {
+                    var local = il.DeclareLocal(returnType);
+                    il.Emit(OpCodes.Ldloca_S, local);
+                    il.Emit(OpCodes.Initobj, returnType);
+                    il.Emit(OpCodes.Ldloc_0);
+                }
+                else
+                {
+                    il.Emit(OpCodes.Ldnull);
+                }
+            }
+
+            il.Emit(OpCodes.Ret);
+            return dm.CreateDelegate(eventHandlerType);
+        }
+
+        /// <summary>
+        /// Subscribe To DataContextChanged
+        /// </summary>
+        /// <param name="targetObj">Target Object</param>
+        private void SubscribeToDataContextChanged(DependencyObject targetObj)
+        {
+            DependencyPropertyDescriptor.FromProperty(FrameworkElement.DataContextProperty, targetObj.GetType()).AddValueChanged(targetObj, this.TargetObject_DataContextChanged);
+        }
+
+        /// <summary>
+        /// Unsubscribe From DataContextChanged
+        /// </summary>
+        /// <param name="targetObj">Target Object</param>
+        private void UnsubscribeFromDataContextChanged(DependencyObject targetObj)
+        {
+            DependencyPropertyDescriptor.FromProperty(FrameworkElement.DataContextProperty, targetObj.GetType()).RemoveValueChanged(targetObj, this.TargetObject_DataContextChanged);
+        }
+
+        /// <summary>
+        /// TargetObject DataContextChanged
+        /// </summary>
+        /// <param name="sender">Sender Object</param>
+        /// <param name="e">Event Parameter</param>
+        private void TargetObject_DataContextChanged(object sender, EventArgs e)
+        {
+            DependencyObject targetObj = sender as DependencyObject;
+            if (targetObj == null)
+            {
+                return;
+            }
+
+            object dataContext = GetDataContext(targetObj);
+            if (dataContext == null)
+            {
+                return;
+            }
+
+            var handler = GetHandler(dataContext, this.eventInfo, this.EventHandlerName);
+            if (handler != null)
+            {
+                this.eventInfo.AddEventHandler(targetObj, handler);
+            }
+
+            this.UnsubscribeFromDataContextChanged(targetObj);
+        }
+
+        #endregion
+    }
+    #region Old Code
+    ////public class EventBindingMethod:MarkupExtension
+    ////{
+
+    ////    public override object ProvideValue(IServiceProvider serviceProvider)
+    ////    {
+    ////        throw new NotImplementedException();
+    ////    }
+    ////}
+
+    ////public class EventBindingExtension : MarkupExtension
+    ////{
+    ////    public EventBindingExtension() { }
+
+    ////    public EventBindingExtension(string eventHandlerName)
+    ////    {
+    ////        this.EventHandlerName = eventHandlerName;
+    ////    }
+
+    ////    [ConstructorArgument("eventHandlerName")]
+    ////    public string EventHandlerName { get; set; }
+
+    ////    public override object ProvideValue(IServiceProvider serviceProvider)
+    ////    {
+    ////        if (string.IsNullOrEmpty(EventHandlerName))
+    ////            throw new ArgumentException("The EventHandlerName property is not set", "EventHandlerName");
+
+    ////        var target = (IProvideValueTarget)serviceProvider.GetService(typeof(IProvideValueTarget));
+
+    ////        EventInfo eventInfo = target.TargetProperty as EventInfo;
+    ////        if (eventInfo == null)
+    ////            throw new InvalidOperationException("The target property must be an event");
+
+    ////        object dataContext = GetDataContext(target.TargetObject);
+    ////        if (dataContext == null)
+    ////            throw new InvalidOperationException("No DataContext found");
+
+    ////        var handler = GetHandler(dataContext, eventInfo, EventHandlerName);
+    ////        if (handler == null)
+    ////            throw new ArgumentException("No valid event handler was found", "EventHandlerName");
+
+    ////        return handler;
+    ////    }
+
+    ////    #region Helper methods
+
+    ////    static object GetHandler(object dataContext, EventInfo eventInfo, string eventHandlerName)
+    ////    {
+    ////        Type dcType = dataContext.GetType();
+    ////        var method = dcType.GetMethod(
+    ////            eventHandlerName,
+    ////            GetParameterTypes(eventInfo));
+    ////        if (method != null)
+    ////        {
+    ////            if (method.IsStatic)
+    ////                return Delegate.CreateDelegate(eventInfo.EventHandlerType, method);
+    ////            else
+    ////                return Delegate.CreateDelegate(eventInfo.EventHandlerType, dataContext, method);
+    ////        }
+
+    ////        return null;
+    ////    }
+
+    ////    static Type[] GetParameterTypes(EventInfo eventInfo)
+    ////    {
+    ////        var invokeMethod = eventInfo.EventHandlerType.GetMethod("Invoke");
+    ////        return invokeMethod.GetParameters().Select(p => p.ParameterType).ToArray();
+    ////    }
+
+    ////    static object GetDataContext(object target)
+    ////    {
+    ////        var depObj = target as DependencyObject;
+    ////        if (depObj == null)
+    ////            return null;
+    ////        return depObj.GetValue(FrameworkElement.DataContextProperty)
+    ////            ?? depObj.GetValue(FrameworkContentElement.DataContextProperty);
+    ////    }
+    ////    #endregion
+    ////}
+    #endregion
+*******************************************************************************************
+  <Button x:Name="EnterButton" Command="{Binding EnterButton}" CommandParameter="{Binding ElementName=EnterPinWindow}" />
+   <ComboBox x:Name="CountryComboBox" >
+                    <i:Interaction.Triggers>
+                        <i:EventTrigger EventName="SelectionChanged">
+                            <i:InvokeCommandAction Command="{Binding SelectionChangedCommand}" CommandParameter="{Binding ElementName=CountryComboBox,Path=SelectedValue}">
+                            </i:InvokeCommandAction>
+                        </i:EventTrigger>
+                    </i:Interaction.Triggers>
+                </ComboBox>
+<Button x:Name="SaveButton" Command="{Binding SaveCommand}">
+                <Button.CommandParameter>
+                    <MultiBinding Converter="{StaticResource MultiConvert}">
+                        <Binding ElementName="UrlPath" Path="Text"/>
+                        <Binding ElementName="UserName" Path="Text"/>
+                        <Binding ElementName="Password"/>
+                        <Binding ElementName="CountryComboBox" Path="SelectedItem"/>
+                        <Binding ElementName="HubComboBox" Path="SelectedItem"/>
+                        <Binding ElementName="LocationComboBox" Path="SelectedItem"/>
+                        <Binding ElementName="TerminalComboBox" Path="SelectedItem"/>
+                        <Binding ElementName="CountryComboBox" Path="Text"/>
+                        <Binding ElementName="HubComboBox" Path="Text"/>
+                        <Binding ElementName="LocationComboBox" Path="Text"/>
+                        <Binding ElementName="TerminalComboBox" Path="Text"/>
+                    </MultiBinding>
+                </Button.CommandParameter>
+</Button>
+
+/// <summary>
+    /// Represents the MultiValueConverter
+    /// </summary>
+    public class MultiValueConverter : IMultiValueConverter
+    {
+        /// <summary>
+        /// Convert Method
+        /// </summary>
+        /// <param name="values">Collection Object</param>
+        /// <param name="targetType">Target Type</param>
+        /// <param name="parameter">Send Parameter</param>
+        /// <param name="culture">Current Culture</param>
+        /// <returns>Return Array</returns>
+        public object Convert(object[] values, Type targetType, object parameter, System.Globalization.CultureInfo culture)
+        {
+            return values.ToArray();
+        }
+
+        /// <summary>
+        /// ConvertBack Method
+        /// </summary>
+        /// <param name="value">Pass Object</param>
+        /// <param name="targetTypes">Target Type</param>
+        /// <param name="parameter">Send Parameter</param>
+        /// <param name="culture">Current Culture</param>
+        /// <returns>Return Array</returns>
+        public object[] ConvertBack(object value, Type[] targetTypes, object parameter, System.Globalization.CultureInfo culture)
+        {
+            throw new NotImplementedException("No two way conversion, one way binding only.");
+        }
+    }
+
+/// <summary>
+        /// Field enterButton
+        /// </summary>
+        private ICommand enterButton;
+/// <summary>
+        /// Gets the CancelButton
+        /// </summary>
+        public ICommand CancelButton
+        {
+            get
+            {
+                if (this.cancelButton == null)
+                {
+                    this.cancelButton = new RelayCommand<object>(this.ExecuteCancel, this.CanExecuteCancel);
+                }
+
+                return this.cancelButton;
+            }
+        }
+/// <summary>
+        /// CanExecute Enter Button
+        /// </summary>
+        /// <param name="param">Object Parameter</param>
+        /// <returns>Return Parameter</returns>
+        private bool CanExecuteEnter(object param)
+        {
+            return true;
+        }
+
+        /// <summary>
+        /// Execute Cancel Button 
+        /// </summary>
+        /// <param name="param">Object Parameter</param>
+        private void ExecuteCancel(object param)
+        {
+            ////(param as EnterPin.)
+            (param as EnterPin).Close();
+        }
+ /// <summary>
+    /// Represents the RelayCommand
+    /// </summary>
+    /// <typeparam name="T">The generic type parameter.</typeparam>
+    public class RelayCommand<T> : ICommand
+    {
+        #region Field
+
+        /// <summary>
+        /// Field execute
+        /// </summary>
+        private readonly Action<object> _execute;
+
+        /// <summary>
+        /// Field canExecute
+        /// </summary>
+        private readonly Predicate<object> _canExecute;
+
+        #endregion
+
+        #region Constructors
+
+        /// <summary>
+        /// Initializes a new instance of the <see cref="RelayCommand{T}"/> class
+        /// </summary>
+        /// <param name="execute">execute object</param>
+        public RelayCommand(Action<object> execute)
+            : this(execute, null)
+        {
+        }
+
+        /// <summary>
+        /// Initializes a new instance of the <see cref="RelayCommand{T}"/> class
+        /// </summary>
+        /// <param name="execute">execute object</param>
+        /// <param name="canExecute">canExecute object</param>
+        public RelayCommand(Action<object> execute, Predicate<object> canExecute)
+        {
+            this._execute = execute;
+            this._canExecute = canExecute;
+        }
+
+        #endregion
+
+        #region ICommandMember
+
+        /// <summary>
+        /// ICommand Event
+        /// </summary>
+        public event EventHandler CanExecuteChanged
+        {
+            add { CommandManager.RequerySuggested += value; }
+            remove { CommandManager.RequerySuggested -= value; }
+        }
+
+        /// <summary>
+        /// canExecute Method
+        /// </summary>
+        /// <param name="parameter">canExecute parameter</param>
+        /// <returns>Return Parameter</returns>
+        public bool CanExecute(object parameter)
+        {
+            return this._canExecute == null ? true : this._canExecute(parameter);
+        }
+
+        /// <summary>
+        /// execute method
+        /// </summary>
+        /// <param name="parameter">execute parameter</param>
+        public void Execute(object parameter)
+        {
+            this._execute(parameter);
+        }
+
+        #endregion
+    }
+**********************************************************************************************************
+ /// <summary>
+    /// A command whose sole purpose is to relay its functionality to other objects by invoking delegates. The default return value for the CanExecute method is 'true'.
+    /// </summary>
+    public class RelayNewCommand : ICommand
+    {
+        #region Declarations
+
+        /// <summary>
+        /// Field for _canExecute
+        /// </summary>
+        private readonly Func<bool> _canExecute;
+
+        /// <summary>
+        /// Field for _execute
+        /// </summary>
+        private readonly Action _execute;
+
+        #endregion
+
+        #region Constructors
+
+        /// <summary>
+        /// Initializes a new instance of the <see cref="RelayNewCommand"/> class and the command can always be executed.
+        /// </summary>
+        /// <param name="execute">The execution logic.</param>
+        public RelayNewCommand(Action execute)
+            : this(execute, null)
+        {
+        }
+
+        /// <summary>
+        /// Initializes a new instance of the <see cref="RelayNewCommand"/> class.
+        /// </summary>
+        /// <param name="execute">The execution logic.</param>
+        /// <param name="canExecute">The execution status logic.</param>
+        public RelayNewCommand(Action execute, Func<bool> canExecute)
+        {
+            if (execute == null)
+            {
+                throw new ArgumentNullException("execute");
+            }
+
+            this._execute = execute;
+            this._canExecute = canExecute;
+        }
+
+        #endregion
+
+        #region ICommand Members
+        /// <summary>
+        /// ICommand Event
+        /// </summary>
+        public event EventHandler CanExecuteChanged
+        {
+            add
+            {
+                if (this._canExecute != null)
+                {
+                    CommandManager.RequerySuggested += value;
+                }
+            }
+
+            remove
+            {
+                if (this._canExecute != null)
+                {
+                    CommandManager.RequerySuggested -= value;
+                }
+            }
+        }
+
+        /// <summary>
+        /// CanExecute Method
+        /// </summary>
+        /// <param name="parameter">Object parameter</param>
+        /// <returns>Return Parameter</returns>
+        [DebuggerStepThrough]
+        public bool CanExecute(object parameter)
+        {
+            return this._canExecute == null ? true : this._canExecute();
+        }
+
+        /// <summary>
+        /// Execute Method
+        /// </summary>
+        /// <param name="parameter">Object parameter</param>
+        public void Execute(object parameter)
+        {
+            this._execute();
+        }
+
+        #endregion
+    }
+****************************************************************************************************************
+   /// <summary>
+    /// Represents the WindowCommands
+    /// </summary>
+    public class WindowCommands : FrameworkElement
+    {
+        #region Public static method
+
+        /// <summary>
+        /// Register All Command 
+        /// </summary>
+        public static void RegisterAllCommands()
+        {
+            RegisterHelp();
+
+            RegisterCommandBinding(RoutedCommands.RefreshProjectDataCommand, OnRefreshProjectData, CanProjectActionExecute);
+        }
+
+        /// <summary>
+        /// Register Help Command
+        /// </summary>
+        private static void RegisterHelp()
+        {
+            CommandManager.RegisterClassCommandBinding(
+                typeof(Button),
+                new CommandBinding(
+                    RoutedCommands.HelpForward,
+                    delegate(object d, ExecutedRoutedEventArgs e)
+                    {
+                        Button helpCommand = d as Button;
+                        if (helpCommand != null)
+                        {
+                            Help help = new Help();
+                            help.Owner = App.Current.MainWindow;
+                            help.ShowDialog();
+                        }
+                    },
+            delegate(object d, CanExecuteRoutedEventArgs e)
+            {
+                e.CanExecute = true;
+            }));
+        }
+
+        /// <summary>
+        /// Registers the command binding.
+        /// </summary>
+        /// <param name="command">The command.</param>
+        /// <param name="handler">The handler.</param>
+        /// <param name="canExecute">The can execute.</param>
+        /// <param name="keyBinding">The key binding.</param>
+        private static void RegisterCommandBinding(ICommand command, ExecutedRoutedEventHandler handler, CanExecuteRoutedEventHandler canExecute = null, KeyGesture keyBinding = null)
+        {
+            RegisterCommandBinding(new CommandBinding(command, handler, canExecute));
+        }
+
+        /// <summary>
+        /// Registers the command binding.
+        /// </summary>
+        /// <param name="commandBinding">The command binding.</param>
+        private static void RegisterCommandBinding(CommandBinding commandBinding)
+        {
+            App.Current.MainWindow.CommandBindings.Add(commandBinding);
+        }
+
+        /// <summary>
+        /// Resets the project.
+        /// </summary>
+        /// <param name="sender">The sender.</param>
+        /// <param name="e">The <see cref="System.Windows.Input.ExecutedRoutedEventArgs"/> instance containing the event data.</param>
+        private static void OnRefreshProjectData(object sender, ExecutedRoutedEventArgs e)
+        {
+        }
+
+        /// <summary>
+        /// Determines whether this instance [can project action execute].
+        /// </summary>
+        /// <param name="sender">The sender.</param>
+        /// <param name="e">The <see cref="System.Windows.Input.CanExecuteRoutedEventArgs"/> instance containing the event data.</param>
+        private static void CanProjectActionExecute(object sender, CanExecuteRoutedEventArgs e)
+        {
+            e.CanExecute = true;
+        }
+        #endregion
+    }
+*********************************************************************************************************************
+ <!--<Button  Command="CommandClass:RoutedCommands.HelpForward" />-->
+<MenuItem Command="{x:Static UIElements:CommandLibrary.RefreshProjectDataCommand}" CommandTarget="{Binding RelativeSource={RelativeSource AncestorType={x:Type UserControl}}}" InputGestureText="[Ctrl] + [Shift] + R">
+    
+	/// <summary>
+    /// Class to initialize RoutedCommands
+    /// </summary>
+    public static class RoutedCommands
+    {
+        #region Public Static Field
+
+        /// <summary>
+        /// Help Command
+        /// </summary>
+        public static readonly RoutedCommand HelpCommand = new RoutedCommand("HelpForward", typeof(RoutedCommands));
+
+        /// <summary>
+        /// The refresh project data command instance.
+        /// </summary>
+        private static readonly RoutedUICommand RefreshProjectData = new RoutedUICommand("Refresh Project Data", "RefreshProjectData", typeof(RoutedCommands));
+
+        #endregion
+
+        #region Public Static Property
+
+        /// <summary>
+        /// Gets the HelpCommand
+        /// </summary>
+        public static RoutedCommand HelpForward
+        {
+            get
+            {
+                return HelpCommand;
+            }
+        }
+
+        /// <summary>
+        /// Gets the refresh project data command.
+        /// </summary>
+        /// <value>The reset project data command.</value>
+        public static RoutedUICommand RefreshProjectDataCommand
+        {
+            get
+            {
+                return RefreshProjectData;
+            }
+        }
+
+        #endregion
+    }
+*********************************************************************************************************************
+ <Window.CommandBindings>
+        <CommandBinding Command="vm:SettingScreen.StyleChange"  CanExecute="StyleCanExecute" Executed="StyleExecuted"/>
+        <CommandBinding Command="vm:SettingScreen.LanguageChange"  CanExecute="LanguageCanExecute" Executed="LanguageExecuted" />
+    </Window.CommandBindings>
+
+ /// <summary>
+        /// Field for Theme Change
+        /// </summary>
+        public static readonly RoutedUICommand StyleChange = new RoutedUICommand("StyleChange", "StyleChange", typeof(SettingScreen));
+
+        /// <summary>
+        /// Field for Theme Change
+        /// </summary>
+        public static readonly RoutedUICommand LanguageChange = new RoutedUICommand("Style Change", "LanguageChange", typeof(SettingScreen));
+
+ <MenuItem Header="Orange" Height="60" Command="vm:SettingScreen.StyleChange" CommandParameter="Orange"/>
+/// <summary>
+        /// Style CanExecute
+        /// </summary>
+        /// <param name="sender">Sender Parameter</param>
+        /// <param name="e">Event Parameter</param>
+        private void StyleCanExecute(object sender, CanExecuteRoutedEventArgs e)
+        {
+            e.CanExecute = true;
+        }
+
+        /// <summary>
+        /// Style Executed
+        /// </summary>
+        /// <param name="sender">Sender Parameter</param>
+        /// <param name="e">Event Parameter</param>
+        private void StyleExecuted(object sender, ExecutedRoutedEventArgs e)
+        {
+            ((App)Application.Current).ThemeChange(e.Parameter.ToString());
+        }

@@ -1,0 +1,491 @@
+﻿<Page x:Class="AppView.CustomerEntry"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:ViewModel="clr-namespace:AppViewModel"
+      mc:Ignorable="d" 
+      d:DesignHeight="300" d:DesignWidth="300"
+	Title="CustomerEntry">
+    <Page.Resources>
+        <!--public partial class MainWindow : Window
+    {
+        public MainWindow()
+        {
+            InitializeComponent();
+            List
+        <User>users = new List
+            <User>();
+            users.Add(new User() { Id = 1, Name = "John Doe", PetName="dgfdf", Birthday = new DateTime(1971, 7, 23) });
+            users.Add(new User() { Id = 2, Name = "Jane Doe", PetName = "rrrrr", Birthday = new DateTime(1974, 1, 17) });
+            users.Add(new User() { Id = 3, Name = "Sammy Doe", PetName = "vgvvvvv", Birthday = new DateTime(1991, 9, 2) });
+
+            dgUsers.ItemsSource = users;
+
+        }
+    }
+
+    public class User
+    {
+        public int Id { get; set; }
+
+        private string name;
+
+	    public string Name
+	    {
+		    get { return name;}
+		    set 
+            {
+                name = value;
+                if (String.IsNullOrEmpty(value))
+                {
+                    throw new ApplicationException("Name cannot be empty. Please specify the name.");
+                }
+            }
+	    }
+          
+        public string PetName { get; set; }
+
+        public DateTime Birthday { get; set; }
+
+        //public string Details
+        //{
+        //    get
+        //    {
+        //        return String.Format("{0} was born on {1} and this is a long description of the person.", this.Name, this.Birthday.ToLongDateString());
+        //    }
+        //}
+    }-->
+                <!--<Window.Resources>
+            <Style TargetType="DataGridCell">
+                <Style.Triggers>
+                    <Trigger Property="IsSelected" Value="True">
+                        <Setter Property="Foreground" Value="Black" />
+                    </Trigger>
+                </Style.Triggers>
+            </Style>
+
+            <SolidColorBrush x:Key="{x:Static SystemColors.HighlightBrushKey}" Color="Green"/>
+
+            <Style x:Key="CustomTextBoxTextStyle" TargetType="TextBox">
+                <Setter Property="Background" Value="Transparent"/>
+                <Setter Property="Foreground" Value="Green" />
+                <Setter Property="MaxLength" Value="40" />
+                <Setter Property="Width" Value="392" />
+                <Style.Triggers>
+                    <Trigger Property="Validation.HasError" Value="True">
+                        <Trigger.Setters>
+                            <Setter Property="ToolTip" Value="{Binding RelativeSource={RelativeSource Self},Path=(Validation.Errors)[0].ErrorContent}"/>
+                            <Setter Property="Background" Value="Red"/>
+                        </Trigger.Setters>
+                    </Trigger>
+                </Style.Triggers>
+            </Style>
+        </Window.Resources>
+
+        <Grid>
+            <DataGrid Name="dgUsers" AutoGenerateColumns="False">
+                <DataGrid.RowStyle>
+                    <Style TargetType="DataGridRow">
+                        <Style.Triggers>
+                            <DataTrigger Binding="{Binding Path=Name}" Value="Joby">
+                                <Setter Property="Background" Value="Red" />
+                            </DataTrigger>
+                            <DataTrigger Binding="{Binding Path=PetName}" Value="JJ">
+                                <Setter Property="Background" Value="Yellow" />
+                            </DataTrigger>
+                        </Style.Triggers>
+                    </Style>
+                </DataGrid.RowStyle>
+                <DataGrid.Columns>
+                    <DataGridTextColumn Header="Name" Binding="{Binding Name,NotifyOnValidationError=True,ValidatesOnExceptions=True,ValidatesOnDataErrors=True}"/>
+                    <DataGridTextColumn Header="Name" Binding="{Binding PetName,ValidatesOnExceptions=True}"/>
+                    <DataGridTextColumn Header="Birthday" Binding="{Binding Birthday}" />
+                    <DataGridTemplateColumn Width="100" SortMemberPath="Name">
+                        <DataGridTemplateColumn.HeaderTemplate>
+                            <DataTemplate>
+                                <TextBlock Text="Birthday" HorizontalAlignment="Center" VerticalAlignment="Center" />
+                            </DataTemplate>
+                        </DataGridTemplateColumn.HeaderTemplate>
+                        <DataGridTemplateColumn.CellTemplate>
+                            <DataTemplate>
+                                <TextBox  x:Name="TextBox1" Background="red" HorizontalContentAlignment="Stretch" HorizontalAlignment="Stretch" VerticalContentAlignment="Stretch" Text="{Binding Path=Name,UpdateSourceTrigger=PropertyChanged,ValidatesOnExceptions=True,Mode=TwoWay}" VerticalAlignment="Stretch"/>
+                            </DataTemplate>
+                        </DataGridTemplateColumn.CellTemplate>
+                    </DataGridTemplateColumn>
+                </DataGrid.Columns>
+
+                <DataGrid.RowValidationErrorTemplate>
+                    <ControlTemplate>
+                        <Grid Margin="0,-2,0,-2" ToolTip="{Binding RelativeSource={RelativeSource FindAncestor, AncestorType={x:Type DataGridRow}}, Path=(Validation.Errors)[0].ErrorContent}">
+                            <Ellipse StrokeThickness="0" Fill="Red" Width="{TemplateBinding FontSize}" Height="{TemplateBinding FontSize}" />
+                            <TextBlock Text="!" FontSize="{TemplateBinding FontSize}" FontWeight="Bold" Foreground="White" HorizontalAlignment="Center"  />
+                        </Grid>
+                    </ControlTemplate>
+                </DataGrid.RowValidationErrorTemplate>
+            </DataGrid>
+
+        </Grid>-->
+        <!--***************************************************************************************************************************************************************-->
+        <!--<SolidColorBrush x:Key="{x:Static SystemColors.InactiveSelectionHighlightBrushKey}" Color="Transparent"/>
+
+        <Style TargetType="DataGridCell">
+            <Style.Triggers>
+                <Trigger Property="IsSelected" Value="True">
+                    <Setter Property="Foreground" Value="#737373" />
+                    <Setter Property="BorderThickness" Value="0"/>
+                    <Setter Property="FocusVisualStyle" Value="{x:Null}"/>
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+        <SolidColorBrush x:Key="{x:Static SystemColors.HighlightBrushKey}" Color="Transparent"/>
+        <Style x:Key="{ComponentResourceKey ResourceId=DataGridSelectAllButtonStyle, TypeInTargetAssembly={x:Type DataGrid}}" TargetType="{x:Type Button}">
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="{x:Type Button}">
+                        <Grid>
+                            <Rectangle x:Name="Border" Fill="{DynamicResource {x:Static SystemColors.ControlBrushKey}}" SnapsToDevicePixels="True"/>
+                            <Polygon x:Name="Arrow" Fill="Black" HorizontalAlignment="Right" Margin="8,8,3,3" Opacity="0.15" Points="0,10 10,10 10,0" Stretch="Uniform" VerticalAlignment="Bottom"/>
+                        </Grid>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Stroke" TargetName="Border" Value="{DynamicResource {x:Static SystemColors.ControlDarkBrushKey}}"/>
+                            </Trigger>
+                            <Trigger Property="IsPressed" Value="True">
+                                <Setter Property="Fill" TargetName="Border" Value="{DynamicResource {x:Static SystemColors.ControlDarkBrushKey}}"/>
+                            </Trigger>
+                            <Trigger Property="IsEnabled" Value="False">
+                                <Setter Property="Visibility" TargetName="Arrow" Value="Collapsed"/>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+        <Style x:Key="DataGridStyle1" TargetType="{x:Type DataGrid}">
+            <Setter Property="Background" Value="{DynamicResource {x:Static SystemColors.ControlBrushKey}}"/>
+            <Setter Property="Foreground" Value="{DynamicResource {x:Static SystemColors.ControlTextBrushKey}}"/>
+            <Setter Property="BorderBrush" Value="#FF688CAF"/>
+            <Setter Property="BorderThickness" Value="1"/>
+            <Setter Property="RowDetailsVisibilityMode" Value="VisibleWhenSelected"/>
+            <Setter Property="ScrollViewer.CanContentScroll" Value="true"/>
+            <Setter Property="ScrollViewer.PanningMode" Value="Both"/>
+            <Setter Property="Stylus.IsFlicksEnabled" Value="False"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="{x:Type DataGrid}">
+                        <Border BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="{TemplateBinding BorderThickness}" Background="{TemplateBinding Background}" Padding="{TemplateBinding Padding}" SnapsToDevicePixels="True">
+                            <ScrollViewer x:Name="DG_ScrollViewer" Focusable="false">
+                                <ScrollViewer.Template>
+                                    <ControlTemplate TargetType="{x:Type ScrollViewer}">
+                                        <Grid>
+                                            <Grid.ColumnDefinitions>
+                                                <ColumnDefinition Width="Auto"/>
+                                                <ColumnDefinition Width="*"/>
+                                                <ColumnDefinition Width="Auto"/>
+                                            </Grid.ColumnDefinitions>
+                                            <Grid.RowDefinitions>
+                                                <RowDefinition Height="Auto"/>
+                                                <RowDefinition Height="*"/>
+                                                <RowDefinition Height="Auto"/>
+                                            </Grid.RowDefinitions>
+                                            <Button Command="{x:Static DataGrid.SelectAllCommand}" Focusable="false" Style="{DynamicResource {ComponentResourceKey ResourceId=DataGridSelectAllButtonStyle, TypeInTargetAssembly={x:Type DataGrid}}}" Visibility="{Binding HeadersVisibility, ConverterParameter={x:Static DataGridHeadersVisibility.All}, Converter={x:Static DataGrid.HeadersVisibilityConverter}, RelativeSource={RelativeSource AncestorType={x:Type DataGrid}}}" Width="{Binding CellsPanelHorizontalOffset, RelativeSource={RelativeSource AncestorType={x:Type DataGrid}}}"/>
+                                            <DataGridColumnHeadersPresenter x:Name="PART_ColumnHeadersPresenter" Grid.Column="1" Visibility="{Binding HeadersVisibility, ConverterParameter={x:Static DataGridHeadersVisibility.Column}, Converter={x:Static DataGrid.HeadersVisibilityConverter}, RelativeSource={RelativeSource AncestorType={x:Type DataGrid}}}"/>
+                                            <ScrollContentPresenter x:Name="PART_ScrollContentPresenter" CanContentScroll="{TemplateBinding CanContentScroll}" Grid.ColumnSpan="2" Grid.Row="1"/>
+                                            <ScrollBar x:Name="PART_VerticalScrollBar" Grid.Column="2" Maximum="{TemplateBinding ScrollableHeight}" Orientation="Vertical" Grid.Row="1" Visibility="{TemplateBinding ComputedVerticalScrollBarVisibility}" Value="{Binding VerticalOffset, Mode=OneWay, RelativeSource={RelativeSource TemplatedParent}}" ViewportSize="{TemplateBinding ViewportHeight}"/>
+                                            <Grid Grid.Column="1" Grid.Row="2">
+                                                <Grid.ColumnDefinitions>
+                                                    <ColumnDefinition Width="{Binding NonFrozenColumnsViewportHorizontalOffset, RelativeSource={RelativeSource AncestorType={x:Type DataGrid}}}"/>
+                                                    <ColumnDefinition Width="*"/>
+                                                </Grid.ColumnDefinitions>
+                                                <ScrollBar x:Name="PART_HorizontalScrollBar" Grid.Column="1" Maximum="{TemplateBinding ScrollableWidth}" Orientation="Horizontal" Visibility="{TemplateBinding ComputedHorizontalScrollBarVisibility}" Value="{Binding HorizontalOffset, Mode=OneWay, RelativeSource={RelativeSource TemplatedParent}}" ViewportSize="{TemplateBinding ViewportWidth}"/>
+                                            </Grid>
+                                        </Grid>
+                                    </ControlTemplate>
+                                </ScrollViewer.Template>
+                                <ItemsPresenter SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}" Margin="1,0,1,0"/>
+                            </ScrollViewer>
+                        </Border>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+            <Style.Triggers>
+                <MultiTrigger>
+                    <MultiTrigger.Conditions>
+                        <Condition Property="IsGrouping" Value="true"/>
+                        <Condition Property="VirtualizingPanel.IsVirtualizingWhenGrouping" Value="false"/>
+                    </MultiTrigger.Conditions>
+                    <Setter Property="ScrollViewer.CanContentScroll" Value="false"/>
+                </MultiTrigger>
+            </Style.Triggers>
+        </Style>
+        <Style x:Key="FocusVisual">
+            <Setter Property="Control.Template">
+                <Setter.Value>
+                    <ControlTemplate>
+                        <Rectangle Margin="2" SnapsToDevicePixels="true" Stroke="{DynamicResource {x:Static SystemColors.ControlTextBrushKey}}" StrokeThickness="1" StrokeDashArray="1 2"/>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>-->
+        <!--<DataGrid x:Name="UncollectedPacelgrid" HorizontalAlignment="Center" FontSize="18"  AutoGenerateColumns="False" HeadersVisibility="Column" HorizontalScrollBarVisibility="Hidden"
+         CanUserDeleteRows="False" CanUserReorderColumns="False" HorizontalGridLinesBrush="Transparent" CanUserResizeRows="False" SelectedItem="{Binding Path=SelectedItem,UpdateSourceTrigger=PropertyChanged}"
+         CanUserResizeColumns="False" CanUserAddRows="False"  Foreground="#737373" FontWeight="Medium" BorderBrush="Transparent"
+         Background="Transparent" Height="359" Margin="0,160,0,0" VerticalAlignment="Top" Width="800" ItemsSource="{Binding UncollectedGridSelected}"
+         VerticalGridLinesBrush="Transparent" CanUserSortColumns="False"  SelectionMode="Single" SelectionUnit="FullRow" Style="{DynamicResource DataGridStyle1}">
+            <DataGrid.ColumnHeaderStyle>
+                <Style TargetType="{x:Type DataGridColumnHeader}">
+                    <Style.Resources>
+                        <Style x:Key="ColumnHeaderGripperStyle" TargetType="{x:Type Thumb}">
+                            <Setter Property="Background" Value="Transparent"/>
+                            <Setter Property="Cursor" Value="SizeWE"/>
+                            <Setter Property="Template">
+                                <Setter.Value>
+                                    <ControlTemplate TargetType="{x:Type Thumb}">
+                                        <Border  Padding="{TemplateBinding Padding}"/>
+                                    </ControlTemplate>
+                                </Setter.Value>
+                            </Setter>
+                        </Style>
+                    </Style.Resources>
+                    <Setter Property="Margin" Value="1,0,1,0"/>
+                    <Setter Property="VerticalContentAlignment" Value="Center"/>
+                    <Setter Property="Template">
+                        <Setter.Value>
+                            <ControlTemplate TargetType="{x:Type DataGridColumnHeader}">
+                                <Border Background="#c7c7c7" CornerRadius="5,5,0,0">
+                                    <Grid Height="50">
+        <ContentPresenter HorizontalAlignment="Center"  SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}" VerticalAlignment="Center"/>
+        <Thumb x:Name="PART_LeftHeaderGripper" Panel.ZIndex="4" HorizontalAlignment="Left" Style="{StaticResource ColumnHeaderGripperStyle}"/>
+        <Thumb x:Name="PART_RightHeaderGripper" Panel.ZIndex="4" HorizontalAlignment="Right" Style="{StaticResource ColumnHeaderGripperStyle}"/>
+        </Grid>
+        </Border>
+        </ControlTemplate>
+        </Setter.Value>
+        </Setter>
+        </Style>
+        </DataGrid.ColumnHeaderStyle>
+            <DataGrid.RowStyle>
+                <Style TargetType="DataGridRow">
+                    <Setter Property="Margin" Value="0,1,0,0"/>
+                    <Setter Property="BorderBrush" Value="Transparent"/>
+                    <Setter Property="HorizontalContentAlignment" Value="Center"/>
+                    <Setter Property="VerticalContentAlignment" Value="Center"/>
+                    <Setter Property="Height" Value="50"/>
+                    <Setter Property="Background">
+                        <Setter.Value>
+                            <SolidColorBrush Color="#e2e2e2"/>
+                        </Setter.Value>
+                    </Setter>
+                    <Style.Triggers>
+                        <DataTrigger Binding="{Binding IsSort}" Value="True">
+                            <Setter Property="Visibility" Value="Collapsed"/>
+                        </DataTrigger>
+        <Trigger Property="IsSelected" Value="True">
+            <Setter Property="BorderThickness" Value="1"/>
+            <Setter Property="BorderBrush" Value="#f07045"/>
+            <Setter Property="Background">
+                                <Setter.Value>
+                                    <SolidColorBrush Color="Red"/>
+                                </Setter.Value>
+                            </Setter>
+        </Trigger>
+        </Style.Triggers>
+        </Style>
+        </DataGrid.RowStyle>
+        <DataGrid.Columns>
+            <DataGridTemplateColumn Width="100" MaxWidth="100" >
+                <DataGridTemplateColumn.HeaderTemplate>
+                        <DataTemplate >
+                            <CheckBox x:Name="All" Margin="50,0,0,0" IsThreeState="False" VerticalAlignment="Center" HorizontalAlignment="Center" IsChecked="{Binding ElementName=TechnicianLockerListWindow, Path=DataContext.SelectAll}" >
+                                
+                            </CheckBox>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.HeaderTemplate>
+                <DataGridTemplateColumn.CellTemplate>
+                    <DataTemplate>
+                        <CheckBox x:Name="CheckLocker" Margin="15,0,0,0" IsThreeState="False" VerticalAlignment="Center" HorizontalAlignment="Center"
+                                      Style="{DynamicResource CheckBoxStyle1}" Height="30" Width="30" IsChecked="{Binding IsSelected}">
+                            <i:Interaction.Triggers>
+                                <i:EventTrigger EventName="Checked">
+                                    <i:InvokeCommandAction Command="{Binding ElementName=UnCollectedParcelScreen, Path=DataContext.SelectCheckCommand}"
+                                                       CommandParameter="{Binding ElementName=UncollectedPacelgrid,Path=SelectedItem}"/>
+                                </i:EventTrigger>
+                                <i:EventTrigger EventName="Unchecked">
+                                    <i:InvokeCommandAction Command="{Binding ElementName=UnCollectedParcelScreen, Path=DataContext.UnSelectCheckCommand}"
+                                                       CommandParameter="{Binding  ElementName=UncollectedPacelgrid,Path=SelectedItem}"/>
+                                </i:EventTrigger>
+                            </i:Interaction.Triggers>
+                        </CheckBox>
+                    </DataTemplate>
+                </DataGridTemplateColumn.CellTemplate>
+            </DataGridTemplateColumn>
+            <DataGridTextColumn  FontSize="15" Binding="{Binding PrefixLockerNumber}"  Header="{x:Static prop:Resources.DriverLockerNoGrid}" Width="*" IsReadOnly="True" >
+                <DataGridTextColumn.ElementStyle>
+                    <Style TargetType="{x:Type TextBlock}">
+                        <Setter Property="VerticalAlignment" Value="Center" />
+                        <Setter Property="TextAlignment" Value="Center"/>
+                    </Style>
+                </DataGridTextColumn.ElementStyle>
+            </DataGridTextColumn>
+            <DataGridTextColumn FontSize="15" Binding="{Binding ParcelDisplayID}" Header="{x:Static prop:Resources.DriverParcelIDGrid}" Width="*" IsReadOnly="True" >
+                <DataGridTextColumn.ElementStyle>
+                    <Style TargetType="{x:Type TextBlock}">
+                        <Setter Property="VerticalAlignment" Value="Center" />
+                        <Setter Property="TextAlignment" Value="Center"/>
+                    </Style>
+                </DataGridTextColumn.ElementStyle>
+            </DataGridTextColumn>
+            <DataGridTextColumn FontSize="15" Binding="{Binding ExecessDateTime}" Header="{x:Static prop:Resources.DriverOverdueTime}" Width="*" IsReadOnly="True">
+                <DataGridTextColumn.ElementStyle>
+                    <Style TargetType="{x:Type TextBlock}">
+                        <Setter Property="VerticalAlignment" Value="Center" />
+                        <Setter Property="TextAlignment" Value="Center"/>
+                    </Style>
+                </DataGridTextColumn.ElementStyle>
+            </DataGridTextColumn>
+        </DataGrid.Columns>
+        </DataGrid>
+        <Control SnapsToDevicePixels="false"
+Visibility="{Binding RelativeSource={RelativeSource AncestorType={x:Type Custom:DataGridRow}}, 
+        Path=(Validation.HasError), 
+Converter={StaticResource bool2VisibilityConverter}}"
+Template="{Binding RelativeSource={RelativeSource AncestorType={x:Type Custom:DataGridRow}}, 
+        Path=ValidationErrorTemplate}" 
+                 DataContext="{Binding
+                    RelativeSource={RelativeSource  AncestorType={x:Type Custom:DataGridRow}},
+                    Path=(Validation.Errors)[0].ErrorContent }"                                             
+                    >  
+        <ControlTemplate x:Key="ErrorTemplate2">
+      <Grid  MinWidth="20" MinHeight="20" ToolTip="{Binding}">
+           <Rectangle Fill="{StaticResource ErrorTemplateBrush}" >               
+           </Rectangle>             
+       </Grid> 
+</ControlTemplate>-->
+    </Page.Resources>
+
+        <Grid>
+        <ToolBar Margin="0" Height="50" VerticalAlignment="Top">
+            <ToggleButton x:Name="canUserReorder" Height="40" Width="60" Content="Reorder" Background="Gray" Margin="3"/>
+            <ToggleButton x:Name="canUserResizeColumns" Height="40" Width="60" Content="Row Resizing" Background="Gray" Margin="3"/>
+            <ToggleButton x:Name="canUserResizeRows" Height="40" Width="60" Content="Column Resizing" Background="Gray" Margin="3"/>
+            <ToggleButton x:Name="canUserSort" Height="40" Width="60" Content="Sorting" Background="Gray" Margin="3"/>
+            <ToggleButton x:Name="grouping" Height="40" Width="60" Content="Grouping" Background="Gray" Margin="3"/>
+            <ToggleButton x:Name="Frozen" Height="40" Width="60" Content="Frozen columns" Background="Gray" Margin="3"/>
+            <ToggleButton x:Name="DetailView"  Height="40" Width="60" Content="Detail View" Background="Gray" Margin="3" Click="DetailView_Click"/>
+            <ToggleButton x:Name="Backward" Height="40" Width="60" Content="Back" Background="Gray" Margin="3"/>
+            <ToggleButton x:Name="Forward" Height="40" Width="60" Content="Forward" Background="Gray" Margin="3"/>
+            <ToggleButton x:Name="First" Height="40" Width="60" Content="First" Background="Gray" Margin="3"/>
+            <ToggleButton x:Name="Last"  Height="40" Width="60" Content="Last" Background="Gray" Margin="3"/>
+            <ToggleButton x:Name="Add" Height="40" Width="60" Content="Forward" Background="Gray" Margin="3"/>
+            <ToggleButton x:Name="Delete" Height="40" Width="60" Content="First" Background="Gray" Margin="3"/>
+            <ToggleButton x:Name="Save"  Height="40" Width="60" Content="Last" Background="Gray" Margin="3"/>
+        </ToolBar>
+
+        <DataGrid x:Name="gridTest" AutoGenerateColumns="False" SelectionMode="Extended" SelectionUnit="FullRow" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="20,50,20,20"
+                   CanUserReorderColumns="{Binding IsChecked, ElementName=canUserReorder}"   HeadersVisibility="All" FrozenColumnCount="2" AlternatingRowBackground="AntiqueWhite"
+                              CanUserResizeColumns="{Binding IsChecked, ElementName=canUserResizeColumns}"  RowDetailsVisibilityMode="VisibleWhenSelected"
+                              CanUserResizeRows="{Binding IsChecked, ElementName=canUserResizeRows}"
+                              CanUserSortColumns="{Binding IsChecked, ElementName=canUserSort}">
+            <DataGrid.Columns>
+                <DataGridTemplateColumn Width="100" >
+                    <DataGridTemplateColumn.HeaderTemplate>
+                        <DataTemplate>
+                            <CheckBox  x:Name="CheckLocker1" Margin="35,0,0,0" HorizontalContentAlignment="Center" HorizontalAlignment="Center" VerticalContentAlignment="Center" IsThreeState="False" VerticalAlignment="Center"/>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.HeaderTemplate>
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <CheckBox  x:Name="CheckLocker" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" IsThreeState="False" VerticalAlignment="Center" HorizontalAlignment="Center">
+                                <!--<i:Interaction.Triggers>
+                                    <i:EventTrigger EventName="Checked">
+                                        <i:InvokeCommandAction Command="{Binding ElementName=UnCollectedParcelScreen, Path=DataContext.SelectCheckCommand}"
+                                                       CommandParameter="{Binding ElementName=UncollectedPacelgrid,Path=SelectedItem}"/>
+                                    </i:EventTrigger>
+                                    <i:EventTrigger EventName="Unchecked">
+                                        <i:InvokeCommandAction Command="{Binding ElementName=UnCollectedParcelScreen, Path=DataContext.UnSelectCheckCommand}"
+                                                       CommandParameter="{Binding  ElementName=UncollectedPacelgrid,Path=SelectedItem}"/>
+                                    </i:EventTrigger>
+                                </i:Interaction.Triggers>-->
+                            </CheckBox>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+                <DataGridTemplateColumn Width="100" >
+                    <DataGridTemplateColumn.HeaderTemplate>
+                        <DataTemplate>
+                            <TextBlock Text="Name" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.HeaderTemplate>
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <TextBox  x:Name="TextBox1" HorizontalContentAlignment="Stretch" HorizontalAlignment="Stretch" VerticalContentAlignment="Stretch" Text="{Binding Path=PId}" VerticalAlignment="Stretch"/>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+                <DataGridTemplateColumn Width="100" >
+                    <DataGridTemplateColumn.HeaderTemplate>
+                        <DataTemplate>
+                            <TextBlock Text="DisplayIndex" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.HeaderTemplate>
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <TextBox  x:Name="TextBox1" HorizontalContentAlignment="Stretch" HorizontalAlignment="Stretch" VerticalContentAlignment="Stretch" Text="{Binding Path=DisplayIndex}" VerticalAlignment="Stretch"/>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+                <DataGridTemplateColumn Width="100" >
+                    <DataGridTemplateColumn.HeaderTemplate>
+                        <DataTemplate>
+                            <TextBlock Text="SystemMenuItem" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.HeaderTemplate>
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <TextBox  x:Name="TextBox1" HorizontalContentAlignment="Stretch" HorizontalAlignment="Stretch" VerticalContentAlignment="Stretch" Text="{Binding Path=SystemMenuItemId}" VerticalAlignment="Stretch"/>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+            </DataGrid.Columns>
+            <!--<DataGrid.RowDetailsTemplate>
+                <DataTemplate>
+                    <local:DetailGrid DataContext="{Binding ElementName=gridTest, Path=ItemsSource}"/>
+                </DataTemplate>
+            </DataGrid.RowDetailsTemplate>-->
+
+            <DataGrid.GroupStyle>
+                <GroupStyle>
+                    <GroupStyle.HeaderTemplate>
+                        <DataTemplate>
+                            <StackPanel>
+                                <TextBlock Text="{Binding Path=PId}" FontWeight="Bold" Padding="3"/>
+                            </StackPanel>
+                        </DataTemplate>
+                    </GroupStyle.HeaderTemplate>
+                    <GroupStyle.ContainerStyle>
+                        <Style TargetType="{x:Type GroupItem}">
+                            <Setter Property="Template">
+                                <Setter.Value>
+                                    <ControlTemplate TargetType="{x:Type GroupItem}">
+                                        <Expander>
+                                            <Expander.Header>
+                                                <StackPanel Orientation="Horizontal">
+                                                    <TextBlock Text="{Binding Path=PId}" />
+                                                    <TextBlock Text="{Binding Path=ItemCount}" Margin="8,0,4,0"/>
+                                                    <TextBlock Text="Items"/>
+                                                </StackPanel>
+                                            </Expander.Header>
+                                            <ItemsPresenter />
+                                        </Expander>
+                                    </ControlTemplate>
+                                </Setter.Value>
+                            </Setter>
+                        </Style>
+                    </GroupStyle.ContainerStyle>
+                </GroupStyle>
+            </DataGrid.GroupStyle>
+        </DataGrid>
+
+    </Grid>
+</Page>

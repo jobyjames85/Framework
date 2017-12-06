@@ -1,0 +1,52 @@
+C:\Users\joby.james\Desktop\Odyssey\Demos\bin\Debug\openfolderHS.png
+C:\Users\joby.james\Desktop\Odyssey\Demos\bin\Debug\Demos.exe
+C:\Users\joby.james\Desktop\Odyssey\Demos\bin\Debug\Demos.pdb
+C:\Users\joby.james\Desktop\Odyssey\Demos\bin\Debug\Odyssey.dll
+C:\Users\joby.james\Desktop\Odyssey\Demos\bin\Debug\Odyssey.pdb
+C:\Users\joby.james\Desktop\Odyssey\Demos\obj\Debug\Demos.csprojResolveAssemblyReference.cache
+C:\Users\joby.james\Desktop\Odyssey\Demos\obj\Debug\BreadcrumbWithDataSource.baml
+C:\Users\joby.james\Desktop\Odyssey\Demos\obj\Debug\Main.baml
+C:\Users\joby.james\Desktop\Odyssey\Demos\obj\Debug\Outlook.baml
+C:\Users\joby.james\Desktop\Odyssey\Demos\obj\Debug\BreadcrumbWithDataSource.g.cs
+C:\Users\joby.james\Desktop\Odyssey\Demos\obj\Debug\Main.g.cs
+C:\Users\joby.james\Desktop\Odyssey\Demos\obj\Debug\MainDemo.g.cs
+C:\Users\joby.james\Desktop\Odyssey\Demos\obj\Debug\Outlook.g.cs
+C:\Users\joby.james\Desktop\Odyssey\Demos\obj\Debug\Ribbon\RibbonDemo.g.cs
+C:\Users\joby.james\Desktop\Odyssey\Demos\obj\Debug\App.g.cs
+C:\Users\joby.james\Desktop\Odyssey\Demos\obj\Debug\Demos_Content.g.cs
+C:\Users\joby.james\Desktop\Odyssey\Demos\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\joby.james\Desktop\Odyssey\Demos\obj\Debug\Demos_MarkupCompile.cache
+C:\Users\joby.james\Desktop\Odyssey\Demos\obj\Debug\Demos_MarkupCompile.lref
+C:\Users\joby.james\Desktop\Odyssey\Demos\obj\Debug\MainDemo.baml
+C:\Users\joby.james\Desktop\Odyssey\Demos\obj\Debug\Ribbon\RibbonDemo.baml
+C:\Users\joby.james\Desktop\Odyssey\Demos\obj\Debug\Demos.g.resources
+C:\Users\joby.james\Desktop\Odyssey\Demos\obj\Debug\Demos.Properties.Resources.resources
+C:\Users\joby.james\Desktop\Odyssey\Demos\obj\Debug\Demos.csproj.GenerateResource.Cache
+C:\Users\joby.james\Desktop\Odyssey\Demos\obj\Debug\Demos.exe
+C:\Users\joby.james\Desktop\Odyssey\Demos\obj\Debug\Demos.pdb
+D:\Joby TFS\Framework\OdysseyDemos\bin\Debug\openfolderHS.png
+D:\Joby TFS\Framework\OdysseyDemos\bin\Debug\Demos.exe
+D:\Joby TFS\Framework\OdysseyDemos\bin\Debug\Demos.pdb
+D:\Joby TFS\Framework\OdysseyDemos\bin\Debug\Odyssey.dll
+D:\Joby TFS\Framework\OdysseyDemos\bin\Debug\Odyssey.pdb
+D:\Joby TFS\Framework\OdysseyDemos\obj\Debug\Demos.csprojResolveAssemblyReference.cache
+D:\Joby TFS\Framework\OdysseyDemos\obj\Debug\BreadcrumbWithDataSource.baml
+D:\Joby TFS\Framework\OdysseyDemos\obj\Debug\Main.baml
+D:\Joby TFS\Framework\OdysseyDemos\obj\Debug\Outlook.baml
+D:\Joby TFS\Framework\OdysseyDemos\obj\Debug\BreadcrumbWithDataSource.g.cs
+D:\Joby TFS\Framework\OdysseyDemos\obj\Debug\Main.g.cs
+D:\Joby TFS\Framework\OdysseyDemos\obj\Debug\MainDemo.g.cs
+D:\Joby TFS\Framework\OdysseyDemos\obj\Debug\Outlook.g.cs
+D:\Joby TFS\Framework\OdysseyDemos\obj\Debug\Ribbon\RibbonDemo.g.cs
+D:\Joby TFS\Framework\OdysseyDemos\obj\Debug\App.g.cs
+D:\Joby TFS\Framework\OdysseyDemos\obj\Debug\Demos_Content.g.cs
+D:\Joby TFS\Framework\OdysseyDemos\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\Joby TFS\Framework\OdysseyDemos\obj\Debug\Demos_MarkupCompile.cache
+D:\Joby TFS\Framework\OdysseyDemos\obj\Debug\Demos_MarkupCompile.lref
+D:\Joby TFS\Framework\OdysseyDemos\obj\Debug\MainDemo.baml
+D:\Joby TFS\Framework\OdysseyDemos\obj\Debug\Ribbon\RibbonDemo.baml
+D:\Joby TFS\Framework\OdysseyDemos\obj\Debug\Demos.g.resources
+D:\Joby TFS\Framework\OdysseyDemos\obj\Debug\Demos.Properties.Resources.resources
+D:\Joby TFS\Framework\OdysseyDemos\obj\Debug\Demos.csproj.GenerateResource.Cache
+D:\Joby TFS\Framework\OdysseyDemos\obj\Debug\Demos.exe
+D:\Joby TFS\Framework\OdysseyDemos\obj\Debug\Demos.pdb

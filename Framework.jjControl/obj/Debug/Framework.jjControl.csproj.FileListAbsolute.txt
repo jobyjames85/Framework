@@ -1,0 +1,17 @@
+G:\Project\Framework\Framework.jjControl\obj\Debug\Framework.jjControl.csprojResolveAssemblyReference.cache
+G:\Project\Framework\Framework.jjControl\bin\Debug\Framework.jjControl.exe.config
+G:\Project\Framework\Framework.jjControl\bin\Debug\Framework.jjControl.exe
+G:\Project\Framework\Framework.jjControl\bin\Debug\Framework.jjControl.pdb
+G:\Project\Framework\Framework.jjControl\bin\Debug\FabTab.dll
+G:\Project\Framework\Framework.jjControl\bin\Debug\FabTab.pdb
+G:\Project\Framework\Framework.jjControl\obj\Debug\UserControl\TabItemEx.g.cs
+G:\Project\Framework\Framework.jjControl\obj\Debug\App.g.cs
+G:\Project\Framework\Framework.jjControl\obj\Debug\GeneratedInternalTypeHelper.g.cs
+G:\Project\Framework\Framework.jjControl\obj\Debug\Framework.jjControl_MarkupCompile.cache
+G:\Project\Framework\Framework.jjControl\obj\Debug\Framework.jjControl_MarkupCompile.lref
+G:\Project\Framework\Framework.jjControl\obj\Debug\UserControl\TabItemEx.baml
+G:\Project\Framework\Framework.jjControl\obj\Debug\Framework.jjControl.g.resources
+G:\Project\Framework\Framework.jjControl\obj\Debug\Framework.jjControl.Properties.Resources.resources
+G:\Project\Framework\Framework.jjControl\obj\Debug\Framework.jjControl.csproj.GenerateResource.Cache
+G:\Project\Framework\Framework.jjControl\obj\Debug\Framework.jjControl.exe
+G:\Project\Framework\Framework.jjControl\obj\Debug\Framework.jjControl.pdb

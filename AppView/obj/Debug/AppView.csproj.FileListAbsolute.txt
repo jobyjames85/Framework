@@ -1,0 +1,70 @@
+G:\Project\Framework\AppView\obj\Debug\AppView.csprojResolveAssemblyReference.cache
+G:\Project\Framework\AppView\obj\Debug\MasterManagement\Entry\CategorieEntry.baml
+G:\Project\Framework\AppView\obj\Debug\MasterManagement\Entry\EmployeeEntry.baml
+G:\Project\Framework\AppView\obj\Debug\MasterManagement\Entry\ProductsEntry.baml
+G:\Project\Framework\AppView\obj\Debug\MasterManagement\Entry\RegionEntry.baml
+G:\Project\Framework\AppView\obj\Debug\MasterManagement\Entry\ShippersEntry.baml
+G:\Project\Framework\AppView\obj\Debug\MasterManagement\Entry\SuppliersEntry.baml
+G:\Project\Framework\AppView\obj\Debug\MasterManagement\Entry\TerritoriesEntry.baml
+G:\Project\Framework\AppView\obj\Debug\MasterManagement\Entry\UserEntry.baml
+G:\Project\Framework\AppView\obj\Debug\OrderManagement\Entry\OrderEntry.baml
+G:\Project\Framework\AppView\obj\Debug\MasterManagement\Entry\CategorieEntry.g.cs
+G:\Project\Framework\AppView\obj\Debug\MasterManagement\Entry\CustomerEntry.g.cs
+G:\Project\Framework\AppView\obj\Debug\MasterManagement\Entry\EmployeeEntry.g.cs
+G:\Project\Framework\AppView\obj\Debug\MasterManagement\Entry\ProductsEntry.g.cs
+G:\Project\Framework\AppView\obj\Debug\MasterManagement\Entry\RegionEntry.g.cs
+G:\Project\Framework\AppView\obj\Debug\MasterManagement\Entry\ShippersEntry.g.cs
+G:\Project\Framework\AppView\obj\Debug\MasterManagement\Entry\SuppliersEntry.g.cs
+G:\Project\Framework\AppView\obj\Debug\MasterManagement\Entry\TerritoriesEntry.g.cs
+G:\Project\Framework\AppView\obj\Debug\MasterManagement\Entry\UserEntry.g.cs
+G:\Project\Framework\AppView\obj\Debug\OrderManagement\Entry\OrderEntry.g.cs
+G:\Project\Framework\AppView\obj\Debug\AppView_MarkupCompile.cache
+G:\Project\Framework\AppView\obj\Debug\AppView_MarkupCompile.lref
+G:\Project\Framework\AppView\obj\Debug\AppView.dll
+G:\Project\Framework\AppView\obj\Debug\AppView.pdb
+G:\Project\Framework\AppView\bin\Debug\AppView.dll.config
+G:\Project\Framework\AppView\bin\Debug\AppView.dll
+G:\Project\Framework\AppView\bin\Debug\AppView.pdb
+G:\Project\Framework\AppView\bin\Debug\AppViewModel.dll
+G:\Project\Framework\AppView\bin\Debug\Xceed.Wpf.Toolkit.dll
+G:\Project\Framework\AppView\bin\Debug\AppViewModel.pdb
+G:\Project\Framework\AppView\bin\Debug\Xceed.Wpf.Toolkit.pdb
+G:\Project\Framework\AppView\obj\Debug\MasterManagement\Entry\CustomerEntry.baml
+G:\Project\Framework\AppView\obj\Debug\AppView.g.resources
+G:\Project\Framework\AppView\obj\Debug\AppView.Properties.Resources.resources
+G:\Project\Framework\AppView\obj\Debug\AppView.csproj.GenerateResource.Cache
+D:\Joby TFS\Framework\AppView\bin\Debug\AppView.dll.config
+D:\Joby TFS\Framework\AppView\bin\Debug\AppView.dll
+D:\Joby TFS\Framework\AppView\bin\Debug\AppView.pdb
+D:\Joby TFS\Framework\AppView\bin\Debug\AppViewModel.dll
+D:\Joby TFS\Framework\AppView\bin\Debug\Xceed.Wpf.Toolkit.dll
+D:\Joby TFS\Framework\AppView\bin\Debug\AppViewModel.pdb
+D:\Joby TFS\Framework\AppView\bin\Debug\Xceed.Wpf.Toolkit.pdb
+D:\Joby TFS\Framework\AppView\obj\Debug\AppView.csprojResolveAssemblyReference.cache
+D:\Joby TFS\Framework\AppView\obj\Debug\MasterManagement\Entry\CategorieEntry.baml
+D:\Joby TFS\Framework\AppView\obj\Debug\MasterManagement\Entry\EmployeeEntry.baml
+D:\Joby TFS\Framework\AppView\obj\Debug\MasterManagement\Entry\ProductsEntry.baml
+D:\Joby TFS\Framework\AppView\obj\Debug\MasterManagement\Entry\RegionEntry.baml
+D:\Joby TFS\Framework\AppView\obj\Debug\MasterManagement\Entry\ShippersEntry.baml
+D:\Joby TFS\Framework\AppView\obj\Debug\MasterManagement\Entry\SuppliersEntry.baml
+D:\Joby TFS\Framework\AppView\obj\Debug\MasterManagement\Entry\TerritoriesEntry.baml
+D:\Joby TFS\Framework\AppView\obj\Debug\MasterManagement\Entry\UserEntry.baml
+D:\Joby TFS\Framework\AppView\obj\Debug\OrderManagement\Entry\OrderEntry.baml
+D:\Joby TFS\Framework\AppView\obj\Debug\MasterManagement\Entry\CategorieEntry.g.cs
+D:\Joby TFS\Framework\AppView\obj\Debug\MasterManagement\Entry\CustomerEntry.g.cs
+D:\Joby TFS\Framework\AppView\obj\Debug\MasterManagement\Entry\EmployeeEntry.g.cs
+D:\Joby TFS\Framework\AppView\obj\Debug\MasterManagement\Entry\ProductsEntry.g.cs
+D:\Joby TFS\Framework\AppView\obj\Debug\MasterManagement\Entry\RegionEntry.g.cs
+D:\Joby TFS\Framework\AppView\obj\Debug\MasterManagement\Entry\ShippersEntry.g.cs
+D:\Joby TFS\Framework\AppView\obj\Debug\MasterManagement\Entry\SuppliersEntry.g.cs
+D:\Joby TFS\Framework\AppView\obj\Debug\MasterManagement\Entry\TerritoriesEntry.g.cs
+D:\Joby TFS\Framework\AppView\obj\Debug\MasterManagement\Entry\UserEntry.g.cs
+D:\Joby TFS\Framework\AppView\obj\Debug\OrderManagement\Entry\OrderEntry.g.cs
+D:\Joby TFS\Framework\AppView\obj\Debug\AppView_MarkupCompile.cache
+D:\Joby TFS\Framework\AppView\obj\Debug\AppView_MarkupCompile.lref
+D:\Joby TFS\Framework\AppView\obj\Debug\MasterManagement\Entry\CustomerEntry.baml
+D:\Joby TFS\Framework\AppView\obj\Debug\AppView.g.resources
+D:\Joby TFS\Framework\AppView\obj\Debug\AppView.Properties.Resources.resources
+D:\Joby TFS\Framework\AppView\obj\Debug\AppView.csproj.GenerateResource.Cache
+D:\Joby TFS\Framework\AppView\obj\Debug\AppView.dll
+D:\Joby TFS\Framework\AppView\obj\Debug\AppView.pdb

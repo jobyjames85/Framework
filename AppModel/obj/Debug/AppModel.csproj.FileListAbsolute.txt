@@ -1,0 +1,24 @@
+G:\Project\Framework\AppModel\bin\Debug\AppModel.exe.config
+G:\Project\Framework\AppModel\bin\Debug\AppModel.exe
+G:\Project\Framework\AppModel\bin\Debug\AppModel.pdb
+G:\Project\Framework\AppModel\obj\Debug\MainWindow.baml
+G:\Project\Framework\AppModel\obj\Debug\MainWindow.g.cs
+G:\Project\Framework\AppModel\obj\Debug\App.g.cs
+G:\Project\Framework\AppModel\obj\Debug\AppModel_MarkupCompile.cache
+G:\Project\Framework\AppModel\obj\Debug\AppModel.g.resources
+G:\Project\Framework\AppModel\obj\Debug\AppModel.Properties.Resources.resources
+G:\Project\Framework\AppModel\obj\Debug\AppModel.csproj.GenerateResource.Cache
+G:\Project\Framework\AppModel\obj\Debug\AppModel.exe
+G:\Project\Framework\AppModel\obj\Debug\AppModel.pdb
+D:\Joby TFS\Framework\AppModel\bin\Debug\AppModel.exe.config
+D:\Joby TFS\Framework\AppModel\bin\Debug\AppModel.exe
+D:\Joby TFS\Framework\AppModel\bin\Debug\AppModel.pdb
+D:\Joby TFS\Framework\AppModel\obj\Debug\MainWindow.baml
+D:\Joby TFS\Framework\AppModel\obj\Debug\MainWindow.g.cs
+D:\Joby TFS\Framework\AppModel\obj\Debug\App.g.cs
+D:\Joby TFS\Framework\AppModel\obj\Debug\AppModel_MarkupCompile.cache
+D:\Joby TFS\Framework\AppModel\obj\Debug\AppModel.g.resources
+D:\Joby TFS\Framework\AppModel\obj\Debug\AppModel.Properties.Resources.resources
+D:\Joby TFS\Framework\AppModel\obj\Debug\AppModel.csproj.GenerateResource.Cache
+D:\Joby TFS\Framework\AppModel\obj\Debug\AppModel.exe
+D:\Joby TFS\Framework\AppModel\obj\Debug\AppModel.pdb

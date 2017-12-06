@@ -1,0 +1,26 @@
+G:\Project\Framework\AppData\bin\Debug\AppData.exe.config
+G:\Project\Framework\AppData\bin\Debug\AppData.exe
+G:\Project\Framework\AppData\bin\Debug\AppData.pdb
+G:\Project\Framework\AppData\obj\Debug\AppData.csprojResolveAssemblyReference.cache
+G:\Project\Framework\AppData\obj\Debug\MainWindow.baml
+G:\Project\Framework\AppData\obj\Debug\MainWindow.g.cs
+G:\Project\Framework\AppData\obj\Debug\App.g.cs
+G:\Project\Framework\AppData\obj\Debug\AppData_MarkupCompile.cache
+G:\Project\Framework\AppData\obj\Debug\AppData.g.resources
+G:\Project\Framework\AppData\obj\Debug\AppData.Properties.Resources.resources
+G:\Project\Framework\AppData\obj\Debug\AppData.csproj.GenerateResource.Cache
+G:\Project\Framework\AppData\obj\Debug\AppData.exe
+G:\Project\Framework\AppData\obj\Debug\AppData.pdb
+D:\Joby TFS\Framework\AppData\bin\Debug\AppData.exe.config
+D:\Joby TFS\Framework\AppData\bin\Debug\AppData.exe
+D:\Joby TFS\Framework\AppData\bin\Debug\AppData.pdb
+D:\Joby TFS\Framework\AppData\obj\Debug\AppData.csprojResolveAssemblyReference.cache
+D:\Joby TFS\Framework\AppData\obj\Debug\MainWindow.baml
+D:\Joby TFS\Framework\AppData\obj\Debug\MainWindow.g.cs
+D:\Joby TFS\Framework\AppData\obj\Debug\App.g.cs
+D:\Joby TFS\Framework\AppData\obj\Debug\AppData_MarkupCompile.cache
+D:\Joby TFS\Framework\AppData\obj\Debug\AppData.g.resources
+D:\Joby TFS\Framework\AppData\obj\Debug\AppData.Properties.Resources.resources
+D:\Joby TFS\Framework\AppData\obj\Debug\AppData.csproj.GenerateResource.Cache
+D:\Joby TFS\Framework\AppData\obj\Debug\AppData.exe
+D:\Joby TFS\Framework\AppData\obj\Debug\AppData.pdb

@@ -1,0 +1,371 @@
+G:\Project\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\bin\Debug\Xceed.Wpf.Toolkit.LiveExplorer.exe.config
+G:\Project\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\bin\Debug\Xceed.Wpf.Toolkit.LiveExplorer.exe.config
+G:\Project\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\bin\Debug\Xceed.Wpf.Toolkit.LiveExplorer.exe.manifest
+G:\Project\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\bin\Debug\Xceed.Wpf.Toolkit.LiveExplorer.application
+G:\Project\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\bin\Debug\Xceed.Wpf.Toolkit.LiveExplorer.exe
+G:\Project\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\bin\Debug\Xceed.Wpf.Toolkit.LiveExplorer.pdb
+G:\Project\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\bin\Debug\fr\Xceed.Wpf.Toolkit.LiveExplorer.resources.dll
+G:\Project\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\bin\Debug\Xceed.Wpf.AvalonDock.dll
+G:\Project\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Aero.dll
+G:\Project\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Metro.dll
+G:\Project\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\bin\Debug\Xceed.Wpf.AvalonDock.Themes.VS2010.dll
+G:\Project\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\bin\Debug\Xceed.Wpf.DataGrid.dll
+G:\Project\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\bin\Debug\Xceed.Wpf.Samples.SampleData.dll
+G:\Project\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\bin\Debug\Xceed.Wpf.Toolkit.dll
+G:\Project\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Aero.pdb
+G:\Project\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Metro.pdb
+G:\Project\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\bin\Debug\Xceed.Wpf.AvalonDock.Themes.VS2010.pdb
+G:\Project\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\bin\Debug\Xceed.Wpf.AvalonDock.pdb
+G:\Project\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\bin\Debug\Xceed.Wpf.DataGrid.pdb
+G:\Project\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\bin\Debug\Xceed.Wpf.Toolkit.pdb
+G:\Project\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\bin\Debug\de\Xceed.Wpf.AvalonDock.resources.dll
+G:\Project\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\bin\Debug\es\Xceed.Wpf.AvalonDock.resources.dll
+G:\Project\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\bin\Debug\fr\Xceed.Wpf.AvalonDock.resources.dll
+G:\Project\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\bin\Debug\hu\Xceed.Wpf.AvalonDock.resources.dll
+G:\Project\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\bin\Debug\it\Xceed.Wpf.AvalonDock.resources.dll
+G:\Project\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\bin\Debug\pt-BR\Xceed.Wpf.AvalonDock.resources.dll
+G:\Project\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\bin\Debug\ro\Xceed.Wpf.AvalonDock.resources.dll
+G:\Project\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\bin\Debug\ru\Xceed.Wpf.AvalonDock.resources.dll
+G:\Project\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\bin\Debug\sv\Xceed.Wpf.AvalonDock.resources.dll
+G:\Project\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\bin\Debug\zh-Hans\Xceed.Wpf.AvalonDock.resources.dll
+G:\Project\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\Xceed.Wpf.Toolkit.LiveExplorer.csprojResolveAssemblyReference.cache
+G:\Project\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\Resources\LiveExplorerScrollViewer.baml
+G:\Project\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\Resources\TextBlockStyles.baml
+G:\Project\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\Samples\BusyIndicator\Resources\Common.baml
+G:\Project\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\Samples\PropertyGrid\Resources\LastNameUserControlEditor.baml
+G:\Project\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\Samples\Window\Resources\FancyStyles.baml
+G:\Project\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\Samples\Window\Resources\WindowModelEditor.baml
+G:\Project\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\App.baml
+G:\Project\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\HomeView.g.cs
+G:\Project\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\MainWindow.g.cs
+G:\Project\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\Samples\AvalonDock\Views\AvalonDockView.g.cs
+G:\Project\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\Samples\BusyIndicator\Views\BusyIndicatorCustomContentTemplateView.g.cs
+G:\Project\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\Samples\BusyIndicator\Views\BusyIndicatorCustomContentView.g.cs
+G:\Project\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\Samples\BusyIndicator\Views\BusyIndicatorView.g.cs
+G:\Project\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\Samples\Button\Views\ButtonSpinnerView.g.cs
+G:\Project\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\Samples\Button\Views\DropDownSplitButtonView.g.cs
+G:\Project\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\Samples\Calculator\Views\CalculatorView.g.cs
+G:\Project\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\Samples\Chart\Views\ChartAxisView.g.cs
+G:\Project\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\Samples\Chart\Views\ChartLegendView.g.cs
+G:\Project\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\Samples\Chart\Views\ChartSeriesBasicTypesView.g.cs
+G:\Project\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\Samples\Chart\Views\ChartSeriesDataPointsBindingView.g.cs
+G:\Project\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\Samples\Chart\Views\ChartStylingAxesGridView.g.cs
+G:\Project\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\Samples\Chart\Views\ChartStylingColumnSeriesView.g.cs
+G:\Project\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\Samples\Chart\Views\ChartStylingLineSeriesView.g.cs
+G:\Project\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\Samples\Chart\Views\ChartStylingPieSeriesView.g.cs
+G:\Project\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\Samples\CheckLists\Views\CheckListsView.g.cs
+G:\Project\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\Samples\Color\Views\ColorView.g.cs
+G:\Project\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\Samples\DataGrid\Views\DataGridView.g.cs
+G:\Project\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\Samples\DataGrid\Views\MultiColumnComboBoxView.g.cs
+G:\Project\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\Samples\DateTime\Views\DateTimeView.g.cs
+G:\Project\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\Samples\Gauge\Views\RadialGaugeView.g.cs
+G:\Project\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\Samples\ListBox\Views\ListBoxView.g.cs
+G:\Project\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\Samples\Magnifier\Views\MagnifierView.g.cs
+G:\Project\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\Samples\Numeric\Views\NumericView.g.cs
+G:\Project\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\Samples\Panels\Views\SwitchPanelView.g.cs
+G:\Project\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\Samples\Pie\Views\PieChartView.g.cs
+G:\Project\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\Samples\Pie\Views\PieProgressView.g.cs
+G:\Project\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\Samples\Pie\Views\PieView.g.cs
+G:\Project\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\Samples\PileFlowPanel\Views\PileFlowPanelView.g.cs
+G:\Project\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\Samples\PropertyGrid\Resources\LastNameUserControlEditor.g.cs
+G:\Project\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\Samples\PropertyGrid\Views\PropertyGridPropertyItemStyleView.g.cs
+G:\Project\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\Samples\PropertyGrid\Views\PropertyGridDefinitionKeyView.g.cs
+G:\Project\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\Samples\PropertyGrid\Views\PropertyGridEditorDefinitionsView.g.cs
+G:\Project\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\Samples\PropertyGrid\Views\PropertyGridAttributesView.g.cs
+G:\Project\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\Samples\PropertyGrid\Views\PropertyGridSelectedObjectView.g.cs
+G:\Project\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\Samples\PropertyGrid\Views\PropertyGridCustomPropertyView.g.cs
+G:\Project\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\Samples\PropertyGrid\Views\PropertyGridPropertiesView.g.cs
+G:\Project\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\Samples\PropertyGrid\Views\PropertyGridPropertiesSourceView.g.cs
+G:\Project\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\Samples\PropertyGrid\Views\PropertyGridBindingToStructsView.g.cs
+G:\Project\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\Samples\PropertyGrid\Views\PropertyGridCategoryOrderView.g.cs
+G:\Project\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\Samples\PropertyGrid\Views\PropertyGridCustomEditorsView.g.cs
+G:\Project\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\Samples\PropertyGrid\Views\PropertyGridDefaultEditorsView.g.cs
+G:\Project\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\Samples\PropertyGrid\Views\PropertyGridDisplayLocalizationView.g.cs
+G:\Project\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\Samples\PropertyGrid\Views\PropertyGridMultiSelectedObjectsView.g.cs
+G:\Project\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\Samples\PropertyGrid\Views\PropertyGridSpecifyingPropertiesView.g.cs
+G:\Project\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\Samples\PropertyGrid\Views\PropertyGridView.g.cs
+G:\Project\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\Samples\RangeSlider\Views\RangeSliderView.g.cs
+G:\Project\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\Samples\Rating\Views\RatingView.g.cs
+G:\Project\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\Samples\Text\Views\AutoSelectTextboxView.g.cs
+G:\Project\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\Samples\Text\Views\MaskedTextboxView.g.cs
+G:\Project\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\Samples\Text\Views\MultiLineTextEditorView.g.cs
+G:\Project\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\Samples\Text\Views\RichTextboxView.g.cs
+G:\Project\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\Samples\Text\Views\WatermarkTextboxView.g.cs
+G:\Project\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\Samples\Theming\Views\ThemingAvalonDockView.g.cs
+G:\Project\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\Samples\Theming\Views\ThemingCoreWPFView.g.cs
+G:\Project\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\Samples\Theming\Views\ThemingDataGridView.g.cs
+G:\Project\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\Samples\Theming\Views\ThemingExtendedToolkitView.g.cs
+G:\Project\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\Samples\Theming\Views\ThemingListBoxView.g.cs
+G:\Project\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\Samples\TimelinePanel\Views\TimelinePanelView.g.cs
+G:\Project\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\Samples\TimeSpan\Views\TimeSpanView.g.cs
+G:\Project\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\Samples\Window\Resources\WindowModelEditor.g.cs
+G:\Project\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\Samples\Window\Views\ChildWindowView.g.cs
+G:\Project\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\Samples\Window\Views\StylableWindowView.g.cs
+G:\Project\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\Samples\Window\Views\WindowContainerView.g.cs
+G:\Project\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\Samples\Wizard\Views\WizardView.g.cs
+G:\Project\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\Samples\Zoombox\Views\ZoomboxView.g.cs
+G:\Project\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\App.g.cs
+G:\Project\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\GeneratedInternalTypeHelper.g.cs
+G:\Project\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\Xceed.Wpf.Toolkit.LiveExplorer_MarkupCompile.cache
+G:\Project\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\Xceed.Wpf.Toolkit.LiveExplorer_MarkupCompile.lref
+G:\Project\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\HomeView.baml
+G:\Project\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\MainWindow.baml
+G:\Project\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\Samples\AvalonDock\Views\AvalonDockView.baml
+G:\Project\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\Samples\BusyIndicator\Views\BusyIndicatorCustomContentTemplateView.baml
+G:\Project\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\Samples\BusyIndicator\Views\BusyIndicatorCustomContentView.baml
+G:\Project\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\Samples\BusyIndicator\Views\BusyIndicatorView.baml
+G:\Project\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\Samples\Button\Views\ButtonSpinnerView.baml
+G:\Project\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\Samples\Button\Views\DropDownSplitButtonView.baml
+G:\Project\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\Samples\Calculator\Views\CalculatorView.baml
+G:\Project\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\Samples\Chart\Views\ChartAxisView.baml
+G:\Project\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\Samples\Chart\Views\ChartLegendView.baml
+G:\Project\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\Samples\Chart\Views\ChartSeriesBasicTypesView.baml
+G:\Project\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\Samples\Chart\Views\ChartSeriesDataPointsBindingView.baml
+G:\Project\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\Samples\Chart\Views\ChartStylingAxesGridView.baml
+G:\Project\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\Samples\Chart\Views\ChartStylingColumnSeriesView.baml
+G:\Project\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\Samples\Chart\Views\ChartStylingLineSeriesView.baml
+G:\Project\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\Samples\Chart\Views\ChartStylingPieSeriesView.baml
+G:\Project\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\Samples\CheckLists\Views\CheckListsView.baml
+G:\Project\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\Samples\Color\Views\ColorView.baml
+G:\Project\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\Samples\DataGrid\Views\DataGridView.baml
+G:\Project\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\Samples\DataGrid\Views\MultiColumnComboBoxView.baml
+G:\Project\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\Samples\DateTime\Views\DateTimeView.baml
+G:\Project\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\Samples\Gauge\Views\RadialGaugeView.baml
+G:\Project\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\Samples\ListBox\Views\ListBoxView.baml
+G:\Project\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\Samples\Magnifier\Views\MagnifierView.baml
+G:\Project\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\Samples\Numeric\Views\NumericView.baml
+G:\Project\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\Samples\Panels\Views\SwitchPanelView.baml
+G:\Project\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\Samples\Pie\Views\PieChartView.baml
+G:\Project\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\Samples\Pie\Views\PieProgressView.baml
+G:\Project\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\Samples\Pie\Views\PieView.baml
+G:\Project\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\Samples\PileFlowPanel\Views\PileFlowPanelView.baml
+G:\Project\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\Samples\PropertyGrid\Views\PropertyGridPropertyItemStyleView.baml
+G:\Project\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\Samples\PropertyGrid\Views\PropertyGridDefinitionKeyView.baml
+G:\Project\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\Samples\PropertyGrid\Views\PropertyGridEditorDefinitionsView.baml
+G:\Project\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\Samples\PropertyGrid\Views\PropertyGridAttributesView.baml
+G:\Project\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\Samples\PropertyGrid\Views\PropertyGridSelectedObjectView.baml
+G:\Project\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\Samples\PropertyGrid\Views\PropertyGridCustomPropertyView.baml
+G:\Project\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\Samples\PropertyGrid\Views\PropertyGridPropertiesView.baml
+G:\Project\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\Samples\PropertyGrid\Views\PropertyGridPropertiesSourceView.baml
+G:\Project\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\Samples\PropertyGrid\Views\PropertyGridBindingToStructsView.baml
+G:\Project\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\Samples\PropertyGrid\Views\PropertyGridCategoryOrderView.baml
+G:\Project\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\Samples\PropertyGrid\Views\PropertyGridCustomEditorsView.baml
+G:\Project\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\Samples\PropertyGrid\Views\PropertyGridDefaultEditorsView.baml
+G:\Project\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\Samples\PropertyGrid\Views\PropertyGridDisplayLocalizationView.baml
+G:\Project\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\Samples\PropertyGrid\Views\PropertyGridMultiSelectedObjectsView.baml
+G:\Project\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\Samples\PropertyGrid\Views\PropertyGridSpecifyingPropertiesView.baml
+G:\Project\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\Samples\PropertyGrid\Views\PropertyGridView.baml
+G:\Project\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\Samples\RangeSlider\Views\RangeSliderView.baml
+G:\Project\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\Samples\Rating\Views\RatingView.baml
+G:\Project\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\Samples\Text\Views\AutoSelectTextboxView.baml
+G:\Project\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\Samples\Text\Views\MaskedTextboxView.baml
+G:\Project\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\Samples\Text\Views\MultiLineTextEditorView.baml
+G:\Project\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\Samples\Text\Views\RichTextboxView.baml
+G:\Project\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\Samples\Text\Views\WatermarkTextboxView.baml
+G:\Project\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\Samples\Theming\Views\ThemingAvalonDockView.baml
+G:\Project\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\Samples\Theming\Views\ThemingCoreWPFView.baml
+G:\Project\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\Samples\Theming\Views\ThemingDataGridView.baml
+G:\Project\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\Samples\Theming\Views\ThemingExtendedToolkitView.baml
+G:\Project\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\Samples\Theming\Views\ThemingListBoxView.baml
+G:\Project\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\Samples\TimelinePanel\Views\TimelinePanelView.baml
+G:\Project\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\Samples\TimeSpan\Views\TimeSpanView.baml
+G:\Project\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\Samples\Window\Views\ChildWindowView.baml
+G:\Project\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\Samples\Window\Views\StylableWindowView.baml
+G:\Project\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\Samples\Window\Views\WindowContainerView.baml
+G:\Project\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\Samples\Wizard\Views\WizardView.baml
+G:\Project\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\Samples\Zoombox\Views\ZoomboxView.baml
+G:\Project\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\Xceed.Wpf.Toolkit.LiveExplorer.g.resources
+G:\Project\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\Xceed.Wpf.Toolkit.LiveExplorer.Properties.Resources.resources
+G:\Project\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\Xceed.Wpf.Toolkit.LiveExplorer.Samples.PropertyGrid.Views.DisplayLocalizationRes.resources
+G:\Project\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\Xceed.Wpf.Toolkit.LiveExplorer.Samples.PropertyGrid.Views.DisplayLocalizationRes.fr.resources
+G:\Project\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\Xceed.Wpf.Toolkit.LiveExplorer.csproj.GenerateResource.Cache
+G:\Project\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\fr\Xceed.Wpf.Toolkit.LiveExplorer.resources.dll
+G:\Project\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\Xceed.Wpf.Toolkit.LiveExplorer.exe.manifest
+G:\Project\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\Xceed.Wpf.Toolkit.LiveExplorer.application
+G:\Project\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\Xceed.Wpf.Toolkit.LiveExplorer.exe
+G:\Project\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\Xceed.Wpf.Toolkit.LiveExplorer.pdb
+D:\Joby TFS\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\bin\Debug\Xceed.Wpf.Toolkit.LiveExplorer.exe.config
+D:\Joby TFS\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\bin\Debug\Xceed.Wpf.Toolkit.LiveExplorer.exe.manifest
+D:\Joby TFS\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\bin\Debug\Xceed.Wpf.Toolkit.LiveExplorer.application
+D:\Joby TFS\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\bin\Debug\Xceed.Wpf.Toolkit.LiveExplorer.exe
+D:\Joby TFS\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\bin\Debug\Xceed.Wpf.Toolkit.LiveExplorer.pdb
+D:\Joby TFS\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\bin\Debug\fr\Xceed.Wpf.Toolkit.LiveExplorer.resources.dll
+D:\Joby TFS\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\bin\Debug\Xceed.Wpf.AvalonDock.dll
+D:\Joby TFS\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Aero.dll
+D:\Joby TFS\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Metro.dll
+D:\Joby TFS\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\bin\Debug\Xceed.Wpf.AvalonDock.Themes.VS2010.dll
+D:\Joby TFS\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\bin\Debug\Xceed.Wpf.DataGrid.dll
+D:\Joby TFS\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\bin\Debug\Xceed.Wpf.Samples.SampleData.dll
+D:\Joby TFS\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\bin\Debug\Xceed.Wpf.Toolkit.dll
+D:\Joby TFS\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Aero.pdb
+D:\Joby TFS\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Metro.pdb
+D:\Joby TFS\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\bin\Debug\Xceed.Wpf.AvalonDock.Themes.VS2010.pdb
+D:\Joby TFS\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\bin\Debug\Xceed.Wpf.AvalonDock.pdb
+D:\Joby TFS\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\bin\Debug\Xceed.Wpf.DataGrid.pdb
+D:\Joby TFS\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\bin\Debug\Xceed.Wpf.Toolkit.pdb
+D:\Joby TFS\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\bin\Debug\de\Xceed.Wpf.AvalonDock.resources.dll
+D:\Joby TFS\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\bin\Debug\es\Xceed.Wpf.AvalonDock.resources.dll
+D:\Joby TFS\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\bin\Debug\fr\Xceed.Wpf.AvalonDock.resources.dll
+D:\Joby TFS\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\bin\Debug\hu\Xceed.Wpf.AvalonDock.resources.dll
+D:\Joby TFS\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\bin\Debug\it\Xceed.Wpf.AvalonDock.resources.dll
+D:\Joby TFS\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\bin\Debug\pt-BR\Xceed.Wpf.AvalonDock.resources.dll
+D:\Joby TFS\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\bin\Debug\ro\Xceed.Wpf.AvalonDock.resources.dll
+D:\Joby TFS\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\bin\Debug\ru\Xceed.Wpf.AvalonDock.resources.dll
+D:\Joby TFS\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\bin\Debug\sv\Xceed.Wpf.AvalonDock.resources.dll
+D:\Joby TFS\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\bin\Debug\zh-Hans\Xceed.Wpf.AvalonDock.resources.dll
+D:\Joby TFS\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\Xceed.Wpf.Toolkit.LiveExplorer.csprojResolveAssemblyReference.cache
+D:\Joby TFS\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\Resources\LiveExplorerScrollViewer.baml
+D:\Joby TFS\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\Resources\TextBlockStyles.baml
+D:\Joby TFS\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\Samples\BusyIndicator\Resources\Common.baml
+D:\Joby TFS\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\Samples\PropertyGrid\Resources\LastNameUserControlEditor.baml
+D:\Joby TFS\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\Samples\Window\Resources\FancyStyles.baml
+D:\Joby TFS\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\Samples\Window\Resources\WindowModelEditor.baml
+D:\Joby TFS\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\App.baml
+D:\Joby TFS\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\HomeView.g.cs
+D:\Joby TFS\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\MainWindow.g.cs
+D:\Joby TFS\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\Samples\AvalonDock\Views\AvalonDockView.g.cs
+D:\Joby TFS\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\Samples\BusyIndicator\Views\BusyIndicatorCustomContentTemplateView.g.cs
+D:\Joby TFS\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\Samples\BusyIndicator\Views\BusyIndicatorCustomContentView.g.cs
+D:\Joby TFS\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\Samples\BusyIndicator\Views\BusyIndicatorView.g.cs
+D:\Joby TFS\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\Samples\Button\Views\ButtonSpinnerView.g.cs
+D:\Joby TFS\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\Samples\Button\Views\DropDownSplitButtonView.g.cs
+D:\Joby TFS\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\Samples\Calculator\Views\CalculatorView.g.cs
+D:\Joby TFS\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\Samples\Chart\Views\ChartAxisView.g.cs
+D:\Joby TFS\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\Samples\Chart\Views\ChartLegendView.g.cs
+D:\Joby TFS\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\Samples\Chart\Views\ChartSeriesBasicTypesView.g.cs
+D:\Joby TFS\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\Samples\Chart\Views\ChartSeriesDataPointsBindingView.g.cs
+D:\Joby TFS\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\Samples\Chart\Views\ChartStylingAxesGridView.g.cs
+D:\Joby TFS\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\Samples\Chart\Views\ChartStylingColumnSeriesView.g.cs
+D:\Joby TFS\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\Samples\Chart\Views\ChartStylingLineSeriesView.g.cs
+D:\Joby TFS\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\Samples\Chart\Views\ChartStylingPieSeriesView.g.cs
+D:\Joby TFS\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\Samples\CheckLists\Views\CheckListsView.g.cs
+D:\Joby TFS\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\Samples\Color\Views\ColorView.g.cs
+D:\Joby TFS\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\Samples\DataGrid\Views\DataGridView.g.cs
+D:\Joby TFS\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\Samples\DataGrid\Views\MultiColumnComboBoxView.g.cs
+D:\Joby TFS\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\Samples\DateTime\Views\DateTimeView.g.cs
+D:\Joby TFS\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\Samples\Gauge\Views\RadialGaugeView.g.cs
+D:\Joby TFS\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\Samples\ListBox\Views\ListBoxView.g.cs
+D:\Joby TFS\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\Samples\Magnifier\Views\MagnifierView.g.cs
+D:\Joby TFS\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\Samples\Numeric\Views\NumericView.g.cs
+D:\Joby TFS\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\Samples\Panels\Views\SwitchPanelView.g.cs
+D:\Joby TFS\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\Samples\Pie\Views\PieChartView.g.cs
+D:\Joby TFS\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\Samples\Pie\Views\PieProgressView.g.cs
+D:\Joby TFS\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\Samples\Pie\Views\PieView.g.cs
+D:\Joby TFS\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\Samples\PileFlowPanel\Views\PileFlowPanelView.g.cs
+D:\Joby TFS\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\Samples\PropertyGrid\Resources\LastNameUserControlEditor.g.cs
+D:\Joby TFS\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\Samples\PropertyGrid\Views\PropertyGridPropertyItemStyleView.g.cs
+D:\Joby TFS\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\Samples\PropertyGrid\Views\PropertyGridDefinitionKeyView.g.cs
+D:\Joby TFS\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\Samples\PropertyGrid\Views\PropertyGridEditorDefinitionsView.g.cs
+D:\Joby TFS\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\Samples\PropertyGrid\Views\PropertyGridAttributesView.g.cs
+D:\Joby TFS\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\Samples\PropertyGrid\Views\PropertyGridSelectedObjectView.g.cs
+D:\Joby TFS\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\Samples\PropertyGrid\Views\PropertyGridCustomPropertyView.g.cs
+D:\Joby TFS\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\Samples\PropertyGrid\Views\PropertyGridPropertiesView.g.cs
+D:\Joby TFS\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\Samples\PropertyGrid\Views\PropertyGridPropertiesSourceView.g.cs
+D:\Joby TFS\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\Samples\PropertyGrid\Views\PropertyGridBindingToStructsView.g.cs
+D:\Joby TFS\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\Samples\PropertyGrid\Views\PropertyGridCategoryOrderView.g.cs
+D:\Joby TFS\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\Samples\PropertyGrid\Views\PropertyGridCustomEditorsView.g.cs
+D:\Joby TFS\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\Samples\PropertyGrid\Views\PropertyGridDefaultEditorsView.g.cs
+D:\Joby TFS\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\Samples\PropertyGrid\Views\PropertyGridDisplayLocalizationView.g.cs
+D:\Joby TFS\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\Samples\PropertyGrid\Views\PropertyGridMultiSelectedObjectsView.g.cs
+D:\Joby TFS\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\Samples\PropertyGrid\Views\PropertyGridSpecifyingPropertiesView.g.cs
+D:\Joby TFS\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\Samples\PropertyGrid\Views\PropertyGridView.g.cs
+D:\Joby TFS\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\Samples\RangeSlider\Views\RangeSliderView.g.cs
+D:\Joby TFS\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\Samples\Rating\Views\RatingView.g.cs
+D:\Joby TFS\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\Samples\Text\Views\AutoSelectTextboxView.g.cs
+D:\Joby TFS\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\Samples\Text\Views\MaskedTextboxView.g.cs
+D:\Joby TFS\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\Samples\Text\Views\MultiLineTextEditorView.g.cs
+D:\Joby TFS\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\Samples\Text\Views\RichTextboxView.g.cs
+D:\Joby TFS\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\Samples\Text\Views\WatermarkTextboxView.g.cs
+D:\Joby TFS\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\Samples\Theming\Views\ThemingAvalonDockView.g.cs
+D:\Joby TFS\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\Samples\Theming\Views\ThemingCoreWPFView.g.cs
+D:\Joby TFS\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\Samples\Theming\Views\ThemingDataGridView.g.cs
+D:\Joby TFS\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\Samples\Theming\Views\ThemingExtendedToolkitView.g.cs
+D:\Joby TFS\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\Samples\Theming\Views\ThemingListBoxView.g.cs
+D:\Joby TFS\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\Samples\TimelinePanel\Views\TimelinePanelView.g.cs
+D:\Joby TFS\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\Samples\TimeSpan\Views\TimeSpanView.g.cs
+D:\Joby TFS\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\Samples\Window\Resources\WindowModelEditor.g.cs
+D:\Joby TFS\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\Samples\Window\Views\ChildWindowView.g.cs
+D:\Joby TFS\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\Samples\Window\Views\StylableWindowView.g.cs
+D:\Joby TFS\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\Samples\Window\Views\WindowContainerView.g.cs
+D:\Joby TFS\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\Samples\Wizard\Views\WizardView.g.cs
+D:\Joby TFS\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\Samples\Zoombox\Views\ZoomboxView.g.cs
+D:\Joby TFS\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\App.g.cs
+D:\Joby TFS\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\GeneratedInternalTypeHelper.g.cs
+D:\Joby TFS\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\Xceed.Wpf.Toolkit.LiveExplorer_MarkupCompile.cache
+D:\Joby TFS\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\Xceed.Wpf.Toolkit.LiveExplorer_MarkupCompile.lref
+D:\Joby TFS\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\HomeView.baml
+D:\Joby TFS\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\MainWindow.baml
+D:\Joby TFS\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\Samples\AvalonDock\Views\AvalonDockView.baml
+D:\Joby TFS\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\Samples\BusyIndicator\Views\BusyIndicatorCustomContentTemplateView.baml
+D:\Joby TFS\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\Samples\BusyIndicator\Views\BusyIndicatorCustomContentView.baml
+D:\Joby TFS\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\Samples\BusyIndicator\Views\BusyIndicatorView.baml
+D:\Joby TFS\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\Samples\Button\Views\ButtonSpinnerView.baml
+D:\Joby TFS\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\Samples\Button\Views\DropDownSplitButtonView.baml
+D:\Joby TFS\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\Samples\Calculator\Views\CalculatorView.baml
+D:\Joby TFS\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\Samples\Chart\Views\ChartAxisView.baml
+D:\Joby TFS\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\Samples\Chart\Views\ChartLegendView.baml
+D:\Joby TFS\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\Samples\Chart\Views\ChartSeriesBasicTypesView.baml
+D:\Joby TFS\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\Samples\Chart\Views\ChartSeriesDataPointsBindingView.baml
+D:\Joby TFS\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\Samples\Chart\Views\ChartStylingAxesGridView.baml
+D:\Joby TFS\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\Samples\Chart\Views\ChartStylingColumnSeriesView.baml
+D:\Joby TFS\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\Samples\Chart\Views\ChartStylingLineSeriesView.baml
+D:\Joby TFS\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\Samples\Chart\Views\ChartStylingPieSeriesView.baml
+D:\Joby TFS\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\Samples\CheckLists\Views\CheckListsView.baml
+D:\Joby TFS\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\Samples\Color\Views\ColorView.baml
+D:\Joby TFS\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\Samples\DataGrid\Views\DataGridView.baml
+D:\Joby TFS\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\Samples\DataGrid\Views\MultiColumnComboBoxView.baml
+D:\Joby TFS\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\Samples\DateTime\Views\DateTimeView.baml
+D:\Joby TFS\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\Samples\Gauge\Views\RadialGaugeView.baml
+D:\Joby TFS\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\Samples\ListBox\Views\ListBoxView.baml
+D:\Joby TFS\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\Samples\Magnifier\Views\MagnifierView.baml
+D:\Joby TFS\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\Samples\Numeric\Views\NumericView.baml
+D:\Joby TFS\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\Samples\Panels\Views\SwitchPanelView.baml
+D:\Joby TFS\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\Samples\Pie\Views\PieChartView.baml
+D:\Joby TFS\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\Samples\Pie\Views\PieProgressView.baml
+D:\Joby TFS\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\Samples\Pie\Views\PieView.baml
+D:\Joby TFS\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\Samples\PileFlowPanel\Views\PileFlowPanelView.baml
+D:\Joby TFS\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\Samples\PropertyGrid\Views\PropertyGridPropertyItemStyleView.baml
+D:\Joby TFS\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\Samples\PropertyGrid\Views\PropertyGridDefinitionKeyView.baml
+D:\Joby TFS\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\Samples\PropertyGrid\Views\PropertyGridEditorDefinitionsView.baml
+D:\Joby TFS\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\Samples\PropertyGrid\Views\PropertyGridAttributesView.baml
+D:\Joby TFS\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\Samples\PropertyGrid\Views\PropertyGridSelectedObjectView.baml
+D:\Joby TFS\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\Samples\PropertyGrid\Views\PropertyGridCustomPropertyView.baml
+D:\Joby TFS\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\Samples\PropertyGrid\Views\PropertyGridPropertiesView.baml
+D:\Joby TFS\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\Samples\PropertyGrid\Views\PropertyGridPropertiesSourceView.baml
+D:\Joby TFS\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\Samples\PropertyGrid\Views\PropertyGridBindingToStructsView.baml
+D:\Joby TFS\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\Samples\PropertyGrid\Views\PropertyGridCategoryOrderView.baml
+D:\Joby TFS\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\Samples\PropertyGrid\Views\PropertyGridCustomEditorsView.baml
+D:\Joby TFS\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\Samples\PropertyGrid\Views\PropertyGridDefaultEditorsView.baml
+D:\Joby TFS\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\Samples\PropertyGrid\Views\PropertyGridDisplayLocalizationView.baml
+D:\Joby TFS\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\Samples\PropertyGrid\Views\PropertyGridMultiSelectedObjectsView.baml
+D:\Joby TFS\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\Samples\PropertyGrid\Views\PropertyGridSpecifyingPropertiesView.baml
+D:\Joby TFS\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\Samples\PropertyGrid\Views\PropertyGridView.baml
+D:\Joby TFS\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\Samples\RangeSlider\Views\RangeSliderView.baml
+D:\Joby TFS\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\Samples\Rating\Views\RatingView.baml
+D:\Joby TFS\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\Samples\Text\Views\AutoSelectTextboxView.baml
+D:\Joby TFS\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\Samples\Text\Views\MaskedTextboxView.baml
+D:\Joby TFS\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\Samples\Text\Views\MultiLineTextEditorView.baml
+D:\Joby TFS\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\Samples\Text\Views\RichTextboxView.baml
+D:\Joby TFS\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\Samples\Text\Views\WatermarkTextboxView.baml
+D:\Joby TFS\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\Samples\Theming\Views\ThemingAvalonDockView.baml
+D:\Joby TFS\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\Samples\Theming\Views\ThemingCoreWPFView.baml
+D:\Joby TFS\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\Samples\Theming\Views\ThemingDataGridView.baml
+D:\Joby TFS\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\Samples\Theming\Views\ThemingExtendedToolkitView.baml
+D:\Joby TFS\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\Samples\Theming\Views\ThemingListBoxView.baml
+D:\Joby TFS\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\Samples\TimelinePanel\Views\TimelinePanelView.baml
+D:\Joby TFS\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\Samples\TimeSpan\Views\TimeSpanView.baml
+D:\Joby TFS\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\Samples\Window\Views\ChildWindowView.baml
+D:\Joby TFS\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\Samples\Window\Views\StylableWindowView.baml
+D:\Joby TFS\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\Samples\Window\Views\WindowContainerView.baml
+D:\Joby TFS\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\Samples\Wizard\Views\WizardView.baml
+D:\Joby TFS\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\Samples\Zoombox\Views\ZoomboxView.baml
+D:\Joby TFS\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\Xceed.Wpf.Toolkit.LiveExplorer.g.resources
+D:\Joby TFS\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\Xceed.Wpf.Toolkit.LiveExplorer.Properties.Resources.resources
+D:\Joby TFS\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\Xceed.Wpf.Toolkit.LiveExplorer.Samples.PropertyGrid.Views.DisplayLocalizationRes.resources
+D:\Joby TFS\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\Xceed.Wpf.Toolkit.LiveExplorer.Samples.PropertyGrid.Views.DisplayLocalizationRes.fr.resources
+D:\Joby TFS\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\Xceed.Wpf.Toolkit.LiveExplorer.csproj.GenerateResource.Cache
+D:\Joby TFS\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\fr\Xceed.Wpf.Toolkit.LiveExplorer.resources.dll
+D:\Joby TFS\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\Xceed.Wpf.Toolkit.LiveExplorer.exe.manifest
+D:\Joby TFS\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\Xceed.Wpf.Toolkit.LiveExplorer.application
+D:\Joby TFS\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\Xceed.Wpf.Toolkit.LiveExplorer.exe
+D:\Joby TFS\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.Toolkit.LiveExplorer\obj\x86\Debug\Xceed.Wpf.Toolkit.LiveExplorer.pdb

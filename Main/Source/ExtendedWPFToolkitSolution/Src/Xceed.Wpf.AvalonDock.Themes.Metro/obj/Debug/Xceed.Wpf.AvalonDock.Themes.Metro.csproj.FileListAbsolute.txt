@@ -1,0 +1,44 @@
+G:\Project\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.AvalonDock.Themes.Metro\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Metro.dll
+G:\Project\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.AvalonDock.Themes.Metro\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Metro.pdb
+G:\Project\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.AvalonDock.Themes.Metro\bin\Debug\Xceed.Wpf.AvalonDock.dll
+G:\Project\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.AvalonDock.Themes.Metro\bin\Debug\Xceed.Wpf.AvalonDock.pdb
+G:\Project\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.AvalonDock.Themes.Metro\bin\Debug\de\Xceed.Wpf.AvalonDock.resources.dll
+G:\Project\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.AvalonDock.Themes.Metro\bin\Debug\es\Xceed.Wpf.AvalonDock.resources.dll
+G:\Project\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.AvalonDock.Themes.Metro\bin\Debug\fr\Xceed.Wpf.AvalonDock.resources.dll
+G:\Project\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.AvalonDock.Themes.Metro\bin\Debug\hu\Xceed.Wpf.AvalonDock.resources.dll
+G:\Project\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.AvalonDock.Themes.Metro\bin\Debug\it\Xceed.Wpf.AvalonDock.resources.dll
+G:\Project\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.AvalonDock.Themes.Metro\bin\Debug\pt-BR\Xceed.Wpf.AvalonDock.resources.dll
+G:\Project\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.AvalonDock.Themes.Metro\bin\Debug\ro\Xceed.Wpf.AvalonDock.resources.dll
+G:\Project\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.AvalonDock.Themes.Metro\bin\Debug\ru\Xceed.Wpf.AvalonDock.resources.dll
+G:\Project\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.AvalonDock.Themes.Metro\bin\Debug\sv\Xceed.Wpf.AvalonDock.resources.dll
+G:\Project\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.AvalonDock.Themes.Metro\bin\Debug\zh-Hans\Xceed.Wpf.AvalonDock.resources.dll
+G:\Project\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.AvalonDock.Themes.Metro\obj\Debug\Xceed.Wpf.AvalonDock.Themes.Metro.csprojResolveAssemblyReference.cache
+G:\Project\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.AvalonDock.Themes.Metro\obj\Debug\Brushes.baml
+G:\Project\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.AvalonDock.Themes.Metro\obj\Debug\Xceed.Wpf.AvalonDock.Themes.Metro_MarkupCompile.cache
+G:\Project\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.AvalonDock.Themes.Metro\obj\Debug\Xceed.Wpf.AvalonDock.Themes.Metro_MarkupCompile.lref
+G:\Project\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.AvalonDock.Themes.Metro\obj\Debug\Theme.baml
+G:\Project\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.AvalonDock.Themes.Metro\obj\Debug\Xceed.Wpf.AvalonDock.Themes.Metro.g.resources
+G:\Project\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.AvalonDock.Themes.Metro\obj\Debug\Xceed.Wpf.AvalonDock.Themes.Metro.dll
+G:\Project\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.AvalonDock.Themes.Metro\obj\Debug\Xceed.Wpf.AvalonDock.Themes.Metro.pdb
+D:\Joby TFS\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.AvalonDock.Themes.Metro\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Metro.dll
+D:\Joby TFS\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.AvalonDock.Themes.Metro\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Metro.pdb
+D:\Joby TFS\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.AvalonDock.Themes.Metro\bin\Debug\Xceed.Wpf.AvalonDock.dll
+D:\Joby TFS\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.AvalonDock.Themes.Metro\bin\Debug\Xceed.Wpf.AvalonDock.pdb
+D:\Joby TFS\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.AvalonDock.Themes.Metro\bin\Debug\de\Xceed.Wpf.AvalonDock.resources.dll
+D:\Joby TFS\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.AvalonDock.Themes.Metro\bin\Debug\es\Xceed.Wpf.AvalonDock.resources.dll
+D:\Joby TFS\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.AvalonDock.Themes.Metro\bin\Debug\fr\Xceed.Wpf.AvalonDock.resources.dll
+D:\Joby TFS\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.AvalonDock.Themes.Metro\bin\Debug\hu\Xceed.Wpf.AvalonDock.resources.dll
+D:\Joby TFS\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.AvalonDock.Themes.Metro\bin\Debug\it\Xceed.Wpf.AvalonDock.resources.dll
+D:\Joby TFS\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.AvalonDock.Themes.Metro\bin\Debug\pt-BR\Xceed.Wpf.AvalonDock.resources.dll
+D:\Joby TFS\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.AvalonDock.Themes.Metro\bin\Debug\ro\Xceed.Wpf.AvalonDock.resources.dll
+D:\Joby TFS\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.AvalonDock.Themes.Metro\bin\Debug\ru\Xceed.Wpf.AvalonDock.resources.dll
+D:\Joby TFS\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.AvalonDock.Themes.Metro\bin\Debug\sv\Xceed.Wpf.AvalonDock.resources.dll
+D:\Joby TFS\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.AvalonDock.Themes.Metro\bin\Debug\zh-Hans\Xceed.Wpf.AvalonDock.resources.dll
+D:\Joby TFS\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.AvalonDock.Themes.Metro\obj\Debug\Xceed.Wpf.AvalonDock.Themes.Metro.csprojResolveAssemblyReference.cache
+D:\Joby TFS\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.AvalonDock.Themes.Metro\obj\Debug\Brushes.baml
+D:\Joby TFS\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.AvalonDock.Themes.Metro\obj\Debug\Xceed.Wpf.AvalonDock.Themes.Metro_MarkupCompile.cache
+D:\Joby TFS\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.AvalonDock.Themes.Metro\obj\Debug\Xceed.Wpf.AvalonDock.Themes.Metro_MarkupCompile.lref
+D:\Joby TFS\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.AvalonDock.Themes.Metro\obj\Debug\Theme.baml
+D:\Joby TFS\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.AvalonDock.Themes.Metro\obj\Debug\Xceed.Wpf.AvalonDock.Themes.Metro.g.resources
+D:\Joby TFS\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.AvalonDock.Themes.Metro\obj\Debug\Xceed.Wpf.AvalonDock.Themes.Metro.dll
+D:\Joby TFS\Framework\Main\Source\ExtendedWPFToolkitSolution\Src\Xceed.Wpf.AvalonDock.Themes.Metro\obj\Debug\Xceed.Wpf.AvalonDock.Themes.Metro.pdb

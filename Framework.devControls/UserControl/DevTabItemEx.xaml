@@ -1,0 +1,38 @@
+﻿<fab:FabTabItem x:Class="Framework.devControls.DevTabItemEx"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:fab="http://fabtab.codeplex.com"
+             xmlns:fdv="clr-namespace:Framework.devControls"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" d:DesignHeight="300" d:DesignWidth="300">
+        <Grid x:Name="TabGrid" Focusable="False">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            <Grid x:Name="AddressGrid" Margin="0,0,0,-2" VerticalAlignment="Top" Grid.Row="0" Height="46" Visibility="{Binding ElementName=mainBreadBar,Path=Visibility}" Background="{DynamicResource AddressBarBackgroundColor}">
+            <fdv:BreadcrumbBar x:Name="mainBreadBar" BorderBrush="#FF8F97A1" IsTabStop="False" BorderThickness="0,1,1,1" Margin="5,-5,5,-5" SelectedBreadCrumbItemChanged="BreadcrumbBar_SelectedBreadCrumbItemChanged_1"
+                              Foreground="Black" TargetFrame="{Binding ElementName=mainFrame}">
+                <fdv:BreadcrumbItem x:Name="mainBreadItem" IsRoot="True" Header="CompanyInfo" SelectedIndex="0">
+                    <fdv:BreadcrumbItem.Items>
+                        <fdv:BreadcrumbItem  x:Name="childBreadItem" PageUri="Home">
+                            <fdv:BreadcrumbItem.Header>
+                                <fdv:LocalizeItemSelector>
+                                    <fdv:LocalizeItem IetfLanguageTag="en" Text="Home" />
+                                    <fdv:LocalizeItem IetfLanguageTag="ja" Text="ホーム" />
+                                    <fdv:LocalizeItem IetfLanguageTag="th" Text="หน้าหลัก" />
+                                    <fdv:LocalizeItem IetfLanguageTag="zh" Text="家" />
+                                </fdv:LocalizeItemSelector>
+                            </fdv:BreadcrumbItem.Header>
+                        </fdv:BreadcrumbItem>
+                    </fdv:BreadcrumbItem.Items>
+                </fdv:BreadcrumbItem>
+            </fdv:BreadcrumbBar>
+            </Grid>
+
+        <fdv:FrameEx x:Name="mainFrame" Grid.Row="1" IsTabStop="False" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"  NavigationUIVisibility="Visible" Navigated="mainFrame_Navigated">
+        </fdv:FrameEx>
+    </Grid>
+</fab:FabTabItem>

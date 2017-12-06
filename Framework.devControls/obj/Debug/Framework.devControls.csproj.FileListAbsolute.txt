@@ -1,0 +1,44 @@
+G:\Project\Framework\Framework.devControls\bin\Debug\Framework.devControls.dll
+G:\Project\Framework\Framework.devControls\bin\Debug\Framework.devControls.pdb
+G:\Project\Framework\Framework.devControls\bin\Debug\FabTab.dll
+G:\Project\Framework\Framework.devControls\bin\Debug\FabTab.pdb
+G:\Project\Framework\Framework.devControls\obj\Debug\Framework.devControls.csprojResolveAssemblyReference.cache
+G:\Project\Framework\Framework.devControls\obj\Debug\UserControl\DevTabItemEx.baml
+G:\Project\Framework\Framework.devControls\obj\Debug\UserControl\DevTabItemEx.g.cs
+G:\Project\Framework\Framework.devControls\obj\Debug\Framework.devControls_MarkupCompile.cache
+G:\Project\Framework\Framework.devControls\obj\Debug\Framework.devControls.g.resources
+G:\Project\Framework\Framework.devControls\obj\Debug\Framework.devControls.Properties.Resources.resources
+G:\Project\Framework\Framework.devControls\obj\Debug\Framework.devControls.csproj.GenerateResource.Cache
+G:\Project\Framework\Framework.devControls\obj\Debug\Framework.devControls.dll
+G:\Project\Framework\Framework.devControls\obj\Debug\Framework.devControls.pdb
+G:\Project\Framework\Framework.devControls\obj\Debug\Framework.devControls_MarkupCompile.lref
+G:\Project\Framework\Framework.devControls\obj\Debug\GeneratedInternalTypeHelper.g.cs
+G:\Project\Framework\Framework.devControls\bin\Debug\Framework.Data.dll
+G:\Project\Framework\Framework.devControls\bin\Debug\Framework.Data.pdb
+G:\Project\Framework\Framework.devControls\obj\Debug\Themes\Generic.baml
+G:\Project\Framework\Framework.devControls\obj\Debug\UserControl\HomePage.baml
+G:\Project\Framework\Framework.devControls\obj\Debug\UserControl\HomePage.g.cs
+G:\Project\Framework\Framework.devControls\bin\Debug\Odyssey.dll
+G:\Project\Framework\Framework.devControls\bin\Debug\Odyssey.pdb
+D:\Joby TFS\Framework\Framework.devControls\obj\Debug\Framework.devControls.csprojResolveAssemblyReference.cache
+D:\Joby TFS\Framework\Framework.devControls\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\Joby TFS\Framework\Framework.devControls\obj\Debug\Framework.devControls_MarkupCompile.cache
+D:\Joby TFS\Framework\Framework.devControls\obj\Debug\Framework.devControls_MarkupCompile.lref
+D:\Joby TFS\Framework\Framework.devControls\obj\Debug\Framework.devControls.dll
+D:\Joby TFS\Framework\Framework.devControls\obj\Debug\Framework.devControls.pdb
+D:\Joby TFS\Framework\Framework.devControls\obj\Debug\UserControl\HomePage.g.cs
+D:\Joby TFS\Framework\Framework.devControls\bin\Debug\Framework.devControls.dll
+D:\Joby TFS\Framework\Framework.devControls\bin\Debug\Framework.devControls.pdb
+D:\Joby TFS\Framework\Framework.devControls\bin\Debug\FabTab.dll
+D:\Joby TFS\Framework\Framework.devControls\bin\Debug\Framework.Data.dll
+D:\Joby TFS\Framework\Framework.devControls\bin\Debug\Odyssey.dll
+D:\Joby TFS\Framework\Framework.devControls\bin\Debug\FabTab.pdb
+D:\Joby TFS\Framework\Framework.devControls\bin\Debug\Framework.Data.pdb
+D:\Joby TFS\Framework\Framework.devControls\bin\Debug\Odyssey.pdb
+D:\Joby TFS\Framework\Framework.devControls\obj\Debug\UserControl\DevTabItemEx.g.cs
+D:\Joby TFS\Framework\Framework.devControls\obj\Debug\Themes\Generic.baml
+D:\Joby TFS\Framework\Framework.devControls\obj\Debug\UserControl\DevTabItemEx.baml
+D:\Joby TFS\Framework\Framework.devControls\obj\Debug\UserControl\HomePage.baml
+D:\Joby TFS\Framework\Framework.devControls\obj\Debug\Framework.devControls.g.resources
+D:\Joby TFS\Framework\Framework.devControls\obj\Debug\Framework.devControls.Properties.Resources.resources
+D:\Joby TFS\Framework\Framework.devControls\obj\Debug\Framework.devControls.csproj.GenerateResource.Cache
